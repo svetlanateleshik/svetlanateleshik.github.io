@@ -1,0 +1,329 @@
+.clearfix:after {
+  visibility: hidden;
+  display: block;
+  font-size: 0;
+  content: " ";
+  clear: both;
+  height: 0;
+}
+
+body{
+	font-family: Arial, sans-serif;
+	padding: 0;
+	margin: 0;
+
+}
+div{
+	box-sizing: border-box;
+}
+
+header{
+	background: url(../img/bg.jpg) no-repeat center top / cover;
+	box-shadow: inset 13px 200px 186px -5px rgba(0,0,0,0.77);
+	padding-bottom: 160px;
+}
+
+.container{
+	width: 930px;
+	margin: 0 auto;
+}
+.logo{
+	margin-top: 41px;
+	float: left;
+}
+nav{
+	float: right;
+	margin-top: 50px;
+}
+.menu{
+	padding: 0;	
+	margin: 0;
+	display: block;
+}
+
+.menu li{
+	float: left;
+	display: block;
+	margin-right: 41px;
+}
+
+.menu a{
+	color: #fff;
+	text-decoration: none;
+	text-transform: uppercase;
+	font-size: 14px;
+
+}
+.titles__first p{
+	font-size: 40px;
+	color: #fff;
+	text-transform: uppercase;
+	text-align: center;
+	margin-top: 180px;
+	
+}
+.titles p{
+	text-shadow: 0.1em 0.1em 0.2em black;
+}
+h1{
+	font-size: 72px;
+	color: #fff;
+	text-transform: uppercase;
+	text-align: center;
+	margin: 15px;
+
+}
+.button{
+	background: #fed136;
+	color: #484543;
+	border-radius: 3px;
+	width: 240px;
+	padding: 20px 0;
+	display: block;
+	margin: 0 auto;
+	text-decoration: none;
+	text-align: center;
+	text-transform: uppercase;
+	font-weight: bold;
+	margin-top: 50px;
+	font-size: 18px;
+
+}
+
+.title{
+	padding-top: 115px;
+
+}
+
+.title h2{
+	font-size: 40px;
+	font-weight: bold;
+	text-transform: uppercase;
+	text-align: center;
+	margin: 0;
+
+}
+
+.title p{
+	color: #777777;
+	font-size: 16px;
+	
+	
+	text-align: center;
+	margin-top: 5px;
+
+}
+
+.services{
+	margin-top: 50px;
+}
+.services__item{
+	width: 270px;
+	float: left;
+	text-align: center;
+}
+.services__item h3{
+	font-size: 18px;
+	margin-bottom: 5px;
+}
+
+.services__item p{
+	color: #777;
+	font-size: 14px;
+	line-height: 1.6em;
+}
+
+.services__item:last-child{
+	float: right;
+
+}
+.services__item:first-child{
+	margin-right: 60px;
+
+}
+#services{
+	padding-bottom: 120px;
+}
+#portfolio{
+	background: #f7f7f7;
+	padding-bottom: 120px;
+
+}
+.works{
+	margin-top: 70px;
+
+}
+.works img{
+	float: left;
+}
+
+.works img:last-child{
+	float: right;
+}
+.works img:nth-child(2){
+	margin-left: 29px;
+}
+
+.about__item{
+	padding: 30px 0;
+}
+
+.item{
+	position: relative;
+	margin-bottom: 30px;
+	height: 200px;
+}
+
+.about__item img{
+	
+	height: 183px;
+	position: absolute;
+	left: 50%;
+	transform: translateX(-50%);
+	margin-bottom: 83px;
+}
+
+
+
+
+.text {
+	display: inline-block;
+	height: 183px;
+	width: 282px;
+	
+
+}
+ .left{
+ 	text-align: right;
+ 	left: 50px;
+ 	position: absolute;
+ }
+
+.right{
+	right: 50px;
+	position: absolute;
+}
+
+
+.footer {
+	padding: 40px 0;
+    background: #353f47;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+footer li {
+    display: inline-block;
+    position: relative;
+    padding-left: 30px;
+    font-size: 0;
+}
+
+footer li:first-child {
+    padding-left: 0;
+}
+
+footer li:first-child:before {
+    display: none;
+}
+
+footer li:before {
+    content: '';
+    height: 13px;
+    width: 2px;
+    background: #515f67;
+    position: absolute;
+    top: 0;
+    left: 12px;
+}
+
+footer a {
+    text-decoration: none;
+    color: #fff;
+    font-size: 12px;
+}
+
+.menu-toogle {
+		display: none;
+		position: relative;
+		/*left: 90%;*/
+		padding: 10px 0;
+		margin-right: 5%;
+}
+
+.menu-toogle span {
+		display: block;
+		width: 40px;
+		height: 3px;
+		background: #ffffff;
+}
+
+.menu-toogle span:before {
+		position: absolute;
+		content: '';
+		top: 0;
+		left: 0;
+		right: 0;
+		width: 40px;
+		height: 3px;
+		background: #ffffff;
+}
+
+.menu-toogle span:after {
+		position: absolute;
+		content: '';
+		top: auto;
+		bottom: 0;
+		left: 0;
+		right: 0;
+		width: 40px;
+		height: 3px;
+		background: #ffffff;
+}
+.small-menu {
+		display: none;
+		list-style: none;
+		padding-left: 0;
+		text-transform: uppercase;
+}
+.small-menu a{
+	text-decoration: none;
+	color: #fff;
+	text-transform: uppercase;
+
+}
+
+@keyframes menu-active-slide {
+		0% {
+				transform: translateX(100%);
+		}
+		100% {
+				transform: translateX(0);
+		}
+}
+@media (max-width: 1200px) {
+		.menu{
+			display: none;
+		}
+		.menu-toogle {
+				display: block;
+				float: right;
+				margin-top: 39px;
+		}
+		.small-menu.active-menu {
+				display: block;
+				position: absolute;
+				top: 100px;
+				right: 0;
+				left: 0;
+				z-index: 10;
+				text-align: center;
+				background: rgba(0, 0, 0, 0.85);
+				animation: menu-active-slide 1s;
+		}
+		.small-menu li {
+				margin: 10px;
+		}
+
+
+
