@@ -1,16 +1,12 @@
-$(document).ready(function(){
-		
+$(document).ready(function () {
 
-		$('.menu-toogle').click(function(){
-				$('.small-menu').toggleClass('active-menu')
+$('.main-slider').slick({
+  dots: true,
+  infinite: true,
+  speed: 500,
+  fade: true,
+  cssEase: 'linear'
+});
 
-
-
-
-
-		});
-
-		
-
-		
+   
 });
