@@ -12,6 +12,9 @@ a{
 html{
     overflow-x: hidden;
 }
+body{
+    overflow: hidden;
+}
 .clearfix:after {
     visibility: hidden;
     display: block;
@@ -39,7 +42,7 @@ position: relative;
 .flex{
     position: relative;
     width: 100%;
-    height: 105px;
+    height: 110px;
     display: -webkit-box;
     display: -webkit-flex;
     display: -ms-flexbox;
@@ -196,13 +199,20 @@ position: relative;
     text-transform: uppercase;
     font-weight: bold;
     display: inline-block;
-    font-size: 13px;
+    font-size: 11px;
     padding: 4px 8px;
+    letter-spacing: 0.7px;
 
 
 }
 
-
+.header__contakt-list i{
+    font-size: 14px;
+    padding: 2px 5px;
+    border: 1px solid;
+    border-radius: 20%;
+    margin-left:  2px;
+}
 
 
 
@@ -458,39 +468,6 @@ box-shadow: 0px 0px 60px -15px rgba(79,51,2,1);
     font-size: 17px;
     text-align: justify;
 }
-.dws-wrapper{
-    max-width: 1170px;
-    margin: 0 auto;
-}
-ul.accordion{
-    display: -webkit-flex;
-    display: -moz-flex;
-    display: -ms-flex;
-    display: -o-flex;
-    display: flex;
-    justify-content: center;
-    padding: 0;
-}
-ul.accordion li{
-    overflow: hidden;
-    padding: 1px 1px 0;
-    cursor: pointer;
-    display: block;
-    transition: all 2s;
-
-
-}
-ul.accordion li:hover{
-    width: 1000px;
-    transition: all 0.5s;
-}
-ul.accordion li:nth-child(2){
-    width: 950px;
-}
-
-.accordion img{
-    width: 600px;
-}
 
   
     .white{
@@ -585,7 +562,7 @@ ul.accordion li:nth-child(2){
 .brown{
     position: relative;
     
-    height: 100vh;
+    
     background-image: url(../img/brown.jpg);
     -webkit-background-size: cover;
     background-size: cover;
