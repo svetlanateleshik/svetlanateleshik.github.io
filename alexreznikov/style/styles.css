@@ -304,8 +304,8 @@ body{
 .about__top{
     padding: 5px;
     
-    display: block;
-    opacity: 1;
+    
+    
     display: -webkit-flex;
     display: -moz-flex;
     display: -ms-flex;
