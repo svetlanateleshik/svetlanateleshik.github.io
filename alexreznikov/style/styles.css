@@ -499,14 +499,16 @@ box-shadow: 0px 0px 60px -15px rgba(79,51,2,1);
 .brown{
     position: relative;
     
-    height: 100vh;
-    background-image: url(../img/brown.jpg);
+    height: auto;
+    background-image: url(../img/brown.jpg) ;
     -webkit-background-size: cover;
     background-size: cover;
 
 }
 
-
+.services{
+    text-align: center;
+}
 
 .services__wrap{
     
@@ -515,27 +517,88 @@ box-shadow: 0px 0px 60px -15px rgba(79,51,2,1);
     
 
 }
+.services__title{
+    padding: 40px;
+    font-size: 45px;
+    color: #f7d494;
+}
+
+.services__item{
+
+    display: -webkit-flex;
+    display: -moz-flex;
+    display: -ms-flex;
+    display: -o-flex;
+    display: flex;
+        display: flex;
+    flex-wrap: wrap;
+
+    max-width: 1170px; /* макс ширина */
+    margin: 0 auto; /* выровняем по центру */
+    padding-bottom: 40px;
+}
+
+.services__item-block{
+    flex:1 1 calc(33.33% - 30px); /* отнимем margin и скажем растягиваться */
+    margin:5px;
+    box-sizing:border-box; /* чтобы внутренний отступ не влиял когда там будет текст... */
+    min-width:170px; /* мин. ширина блока, чтобы переносились на другой ряд */
+    height: 190px;
+    padding:50px 50px; 
+    text-align:center;
+    border: 2px solid; /* для красоты */
+    border-color: rgba(247, 212, 148, 0.6);
+    ackground: rgb(34, 30, 30, 0.6);
+
+}
+.services__item-block{
+    x-container {
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    display: flex;
+    -webkit-flex-direction: row;
+    -ms-flex-direction: row;
+    flex-direction: row;
+    -webkit-flex-wrap: wrap;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+    -webkit-justify-content: space-between;
+    -ms-flex-pack: justify;
+    justify-content: space-between;
+    -webkit-align-content: stretch;
+    -ms-flex-line-pack: stretch;
+    align-content: stretch;
+    -webkit-align-items: center;
+    -ms-flex-align: center;
+    align-items: center;
+    }
+    
+}
+.services__item-block img{
+    width: 90px;
+}
+}
 .services p{
     padding-top: 50px;
     font-weight: bold;
     text-decoration: none;
-    font-size: 45px;
+    
     text-align: center;
     margin-bottom: 20px;
-    color: #f7d494;
-    text-shadow: 2px 2px 7px rgba(0,0,0,0.9);
+    color: #fff;
+    text-shadow: 2px 2px 7px rgba(0,0,0,0.8);
 }
 .services li{
     padding-top: 18px;
     padding-bottom: 18px;
 }
 .services a{
-    color: #f7d494;
+    color: #fff;
     text-decoration: none;
     text-transform: uppercase;
     font-weight: bold;
-    font-size: 25px;
-    text-shadow: 2px 2px 7px rgba(0,0,0,0.9);
+    font-size: 13px;
+    text-shadow: 2px 2px 7px rgba(0,0,0,0.8);
     
      
 }
