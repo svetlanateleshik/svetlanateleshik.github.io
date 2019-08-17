@@ -27,9 +27,14 @@ body{
     max-width: 1170px;
     margin: 0 auto;
 }
-
+.container__inner{
+    max-width: 860px;
+    margin: 0 auto;
+}
 .header{
     position: relative;
+    background: #fff url(../img/kianu.jpg) 0 0 no-repeat;
+    height: 100vh;
 
 }
 
@@ -63,31 +68,54 @@ body{
     position: fixed;
     z-index: 1000;
     width: 100%;
-    background: #020202;
+    
 
     
 }
-.header__inner:after {
- content: '';
-    position: absolute;
-    left: 0;
-    right: 0;
-    bottom: 0;
-    height: 2px;
-    background: #f7d494;
 
-    z-index: 1;
-}
 .header__inner:before {
  content: '';
     position: absolute;
     left: 0;
     right: 0;
-    top: 0;
-    height: 2px;
-    background: #f7d494;
+    top: 30px;
+    height: 1px;
+    background: #686c6b;
     z-index: 1;
 
+}
+.header__inner-nav ul{
+    margin: 5px;
+
+}
+
+.header__inner-nav li{
+    display: inline-block;
+    position: relative;
+    color: #fff;
+    font-size: 13px;
+    padding-left: 30px;
+    font-weight: bold;
+    
+    
+
+}
+.header__inner-nav li:before {
+    content: '';
+    height: 13px;
+    width: 1px;
+    background: #686c6b;
+    position: absolute;
+    top: 0;
+    left: 12px;
+    }
+
+.header__inner-nav li:first-child {
+    padding-left: 0;
+}
+
+.header__inner-nav li:first-child:before {
+    display: none;
 }
 .logo{
     display: -webkit-flex;
@@ -174,7 +202,109 @@ body{
     border-radius: 20%;
     margin-left:  2px;
 }
+.header__tekst{
+    padding-top: 20%;
+    padding-left: 20px;
+    position: relative;
 
+    
+}
+
+.header__tekst span{
+    color: #fff;
+    font-size: 14px;
+    text-transform: uppercase;
+    font-weight: bold;
+    letter-spacing: 0.7px;
+    
+}
+
+.header__tekst p{
+    color: #fff;
+    font-size: 55px;
+    font-weight: bold;
+    line-height: 2;
+
+}
+.header__tekst button{
+
+    background-color: #f7d494;
+    padding: 15px 40px;
+    border: none;
+    
+    
+}
+button a{
+    
+    font-size: 14px;
+    font-weight: bold;
+    letter-spacing: 0.7px;
+    color: #fff;
+}
+.header__botom{
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    display: -webkit-flex;
+    display: -moz-flex;
+    display: -ms-flex;
+    display: -o-flex;
+    display: flex;
+    justify-content: space-between;
+    height: 90px;
+    
+    
+
+}
+
+.header__botom-inner{
+    
+text-align: center;
+padding-top: 30px;
+border: 1px solid;
+border-color: #272b2e;
+
+}
+.header__botom-inner:hover{
+    background: #272b2e;
+    color: #fff;
+    transition: 1s;
+}
+.header__botom li{
+    display: inline-block;
+
+    
+}
+.header__botom a{
+
+    padding: 20px 170px;
+     color: #fff;
+    font-size: 30px;
+    
+    font-weight: bold;
+    letter-spacing: 0.7px;
+}
+
+.why__wrap{
+    display: -webkit-flex;
+    display: -moz-flex;
+    display: -ms-flex;
+    display: -o-flex;
+    display: flex;
+    justify-content: space-between;
+}
+.why__wrap-inner{
+    padding: 20px;
+}
+.why__wrap-inner span{
+    font-size: 30px;
+    
+    font-weight: bold;
+}
+.why__wrap-inner p{
+    color: #424242;
+    font-size: ;
+}
 
 .slider-section {
     position: relative;
@@ -527,7 +657,7 @@ box-shadow: 0px 0px 60px -15px rgba(79,51,2,1);
     position: relative;
     
     height: auto;
-    background-image: url(../img/brown3.jpg) ;
+    background: #484250 0 0 no-repeat;
     -webkit-background-size: cover;
     background-size: cover;
 
