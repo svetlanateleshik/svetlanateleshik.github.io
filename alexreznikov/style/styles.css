@@ -1,3 +1,6 @@
+
+@import url('https://fonts.googleapis.com/css?family=El+Messiri:400,700&display=swap&subset=cyrillic');
+
 * {
     box-sizing: border-box;
 }
@@ -14,6 +17,7 @@ html{
 }
 body{
     overflow: hidden;
+   font-family: 'El Messiri', sans-serif;
 }
 .clearfix:after {
     visibility: hidden;
@@ -203,11 +207,22 @@ body{
     margin-left:  2px;
 }
 .header__tekst{
-    padding-top: 20%;
-    padding-left: 20px;
-    position: relative;
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    left: 15%;
+    padding-left: 30px;
 
     
+}
+header__tekst:before {
+    content: '';
+    height: 1px;
+    width: 15px;
+    background: #686c6b;
+    position: absolute;
+    top: 0;
+    left: 30px;
 }
 
 .header__tekst span{
@@ -263,6 +278,7 @@ text-align: center;
 padding-top: 30px;
 border: 1px solid;
 border-color: #272b2e;
+width: 33.33%;
 
 }
 .header__botom-inner:hover{
