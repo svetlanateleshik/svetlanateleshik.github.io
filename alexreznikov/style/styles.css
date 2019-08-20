@@ -639,19 +639,16 @@ width: 33.33%;
 }
 .footer__wrap{
     display: -webkit-flex;
-     display: -moz-flex;
-     display: -ms-flex;
-     display: -o-flex;
-     display: flex;
-     -webkit-flex-direction: row;
-      -moz-flex-direction: row;
-      -ms-flex-direction: row;
-      -o-flex-direction: row;
-      flex-direction: row;
-      justify-content: space-between;
-      -ms-align-items: center;
-       align-items: center;
-       align-content: center;
+    display: -moz-flex;
+    display: -ms-flex;
+    display: -o-flex;
+    display: flex;
+        display: flex;
+    flex-wrap: wrap;
+
+    max-width: 1170px; /* макс ширина */
+    margin: 0 auto; /* выровняем по центру */
+   
 }
 .footer__contact{
     width: 205px;
@@ -766,5 +763,31 @@ body {
     
     max-height: 860px !important;
     
+}
+.header__tekst p {
+   
+    font-size: 45px;
+   
+    line-height: 1;
+}
+.header__botom a {
+    
+    font-size: 13px;
+}
+.why__wrap-inner span {
+    font-size: 20px;
+}
+.footer__iframe {
+    width: 100%;
+}
+footer li {
+    
+    padding-left: 0px;
+}
+navigation-footer{
+    margin-bottom: 10px;
+}
+footer li:before{
+    display: none;
 }
 }
