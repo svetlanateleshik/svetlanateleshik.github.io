@@ -777,6 +777,12 @@ body {
 .why__wrap-inner span {
     font-size: 20px;
 }
+.counter{
+    position: absolute;
+    left: 50%;
+    top: 0;
+    transform: translateX(-50%);
+    }
 .footer__iframe {
     width: 100%;
 }
@@ -789,5 +795,8 @@ navigation-footer{
 }
 footer li:before{
     display: none;
+}
+.logorez{
+    padding-top: 10px;
 }
 }
