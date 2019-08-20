@@ -775,15 +775,18 @@ body {
     font-size: 13px;
 }
 .why__wrap-inner span {
+
     font-size: 20px;
 }
 .counter{
+
     position: absolute;
     left: 50%;
     top: 0;
     transform: translateX(-50%);
     }
 .footer__iframe {
+
     width: 100%;
 }
 footer li {
@@ -792,6 +795,7 @@ footer li {
 }
 navigation-footer{
     margin-bottom: 10px;
+    margin-top: none;
 }
 footer li:before{
     display: none;
