@@ -34,6 +34,7 @@ body{
 .container__inner{
     max-width: 900px;
     margin: 0 auto;
+    padding: 70px 0;
 }
 .header{
     position: relative;
@@ -548,7 +549,7 @@ width: 33.33%;
     box-sizing:border-box; /* чтобы внутренний отступ не влиял когда там будет текст... */
     min-width:170px; /* мин. ширина блока, чтобы переносились на другой ряд */
     height: 190px;
-    padding:50px 50px; 
+    padding:40px 25px; 
     text-align:center;
     border-right: 1px solid; /* для красоты */
     border-color: rgba(247, 212, 148, 0.6);
@@ -692,6 +693,8 @@ width: 33.33%;
 }
 .footer__contact{
     width: 205px;
+    margin-right: 40px;
+    padding-left: 5px;
 }
 .footer__contact-title{
     color: #fff;
@@ -771,6 +774,7 @@ footer a {
 .logorez img{
     height: 200px;
     width: 200px;
+    margin-left: 45%;
 }
 }
 
@@ -818,6 +822,10 @@ body {
 
     font-size: 20px;
 }
+.why__wrap-inner{
+   
+    width: 100%;
+}
 .counter{
 
     position: absolute;
@@ -842,5 +850,9 @@ footer li:before{
 }
 .logorez{
     padding-top: 10px;
+}
+.logorez img{
+   
+    margin-top: 10%;
 }
 }
