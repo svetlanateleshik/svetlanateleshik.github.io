@@ -38,7 +38,9 @@ body{
 }
 .header{
     position: relative;
-    background: #fff url(../img/kianu.jpg) 0 0 no-repeat;
+    background: #fff url(../img/2675.jpg)  0 0 no-repeat;
+    -webkit-background-size: cover;
+    background-size: cover;
     height: 100vh;
 }
 
@@ -197,10 +199,11 @@ body{
     margin-left:  2px;
 }
 .header__tekst{
+    text-align: right;
     position: absolute;
-    top: 50%;
+    top: 65%;
     transform: translateY(-50%);
-    left: 15%;
+    right: 10%;
     padding-left: 30px;
 
     
@@ -226,7 +229,7 @@ header__tekst:before {
 
 .header__tekst p{
     color: #fff;
-    font-size: 55px;
+    font-size: 43px;
     font-weight: bold;
     line-height: 2;
 
@@ -463,12 +466,15 @@ width: 33.33%;
 /*end brown*/
 /*numbers*/
 .numbers{
-    background: url(../img/kianu.jpg) 0 0 no-repeat;
+    background: url(../img/IMG_2345.jpg) 0 0 no-repeat;
+    -webkit-background-size: cover;
+    background-size: cover;
     height: 100vh;
     position: relative;
 }
 .counter{
     position: absolute;
+    right: 10%;
     top: 50%;
     transform: translateY(-50%);
     width: 500px;
