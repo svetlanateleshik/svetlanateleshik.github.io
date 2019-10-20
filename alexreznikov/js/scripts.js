@@ -1,6 +1,11 @@
 $(document).ready(function () {
 
-
+$('.slider').slick({
+  dots: true,
+  infinite: true,
+  speed: 300,
+    
+  });
 
  var time = 2, cc = 1;
  $(window).scroll(function(){

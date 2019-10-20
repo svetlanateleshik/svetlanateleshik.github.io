@@ -34,11 +34,12 @@ body{
 .container__inner{
     max-width: 900px;
     margin: 0 auto;
-    padding: 70px 0;
+   
 }
 .header{
     position: relative;
-    background: #fff url(../img/2675.jpg)  center no-repeat;
+    background: #fff url(../img/2675.jpg)   no-repeat;
+    background-position: top ;
     -webkit-background-size: cover;
     background-size: cover;
     height: 100vh;
@@ -226,10 +227,10 @@ body{
 .header__tekst{
     text-align: right;
     position: absolute;
-    top: 65%;
+    top: 50%;
     transform: translateY(-50%);
     right: 8%;
-    padding-left: 30px;
+    
 
     
 }
@@ -334,7 +335,7 @@ width: 33.33%;
         text-align:center;
         width:68px;
         position: fixed;
-        left: 8%;
+        right: 8%;
         bottom: 18%;
         z-index:999;
         transition:.3s;
@@ -464,7 +465,7 @@ width: 33.33%;
         text-align:center;
         width:68px;
         position: fixed;
-        right: 8%;
+        left: 8%;
         bottom: 18%;
         z-index:999;
         transition:.3s;
@@ -736,6 +737,18 @@ width: 33.33%;
     color: #f7d494;
      float: left;
      margin-right: 6px;
+}
+.slider__inner p{
+    text-align: justify;
+    line-height: normal;
+   
+
+}
+
+.slider__inner img{
+    height: 250px;
+    float: left;
+    padding-right:  40px;
 }
 /*why end*/
 .brown{
@@ -1179,7 +1192,7 @@ body {
 
 .header__tekst p {
    
-    font-size: 35px;
+    font-size: 25px;
    
     line-height: 1;
 }
@@ -1301,9 +1314,9 @@ body {
 
 .header__tekst p {
    
-    font-size: 35px;
+    font-size: 25px;
    
-    line-height: 1;
+    line-height: 1.2;
 }
 .header__botom a {
     
