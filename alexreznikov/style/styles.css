@@ -792,7 +792,8 @@ width: 33.33%;
 }
 
 .services__item-block{
-    flex:1 1 calc(25% - 30px); /* отнимем margin и скажем растягиваться */
+    flex: 1 1 calc(30% - 20px);
+     /* отнимем margin и скажем растягиваться */
     margin:5px;
     box-sizing:border-box; /* чтобы внутренний отступ не влиял когда там будет текст... */
     min-width:170px; /* мин. ширина блока, чтобы переносились на другой ряд */
@@ -862,6 +863,7 @@ width: 33.33%;
 /*numbers*/
 .numbers{
     background: url(../img/IMG_2345.jpg) center no-repeat;
+    background-position: top ;
     -webkit-background-size: cover;
     background-size: cover;
     height: 100vh;
@@ -900,6 +902,7 @@ width: 33.33%;
     font-size: 20px;
 }
 .number{
+
     font-size: calc( (100vw - 480px)/(1280 - 480) * (24 - 16) + 32px);
     padding: 0 0 25px;
     font-weight: bold;
@@ -945,10 +948,11 @@ width: 33.33%;
     max-width: 1170px; /* макс ширина */
     margin: 0 auto; /* выровняем по центру */
     padding-bottom: 40px;
+    position: relative;
 }
 
 .services__item-bl{
-    flex:1 1 calc(20% - 30px); /* отнимем margin и скажем растягиваться */
+    flex:1 1 calc(30% - 20px); /* отнимем margin и скажем растягиваться */
     margin:5px;
     box-sizing:border-box; /* чтобы внутренний отступ не влиял когда там будет текст... */
     min-width:170px; /* мин. ширина блока, чтобы переносились на другой ряд */
@@ -958,12 +962,6 @@ width: 33.33%;
     border-right: 1px solid; /* для красоты */
     border-color: rgba(247, 212, 148, 0.6);
     ackground: rgb(34, 30, 30, 0.6);
-
-}
-.services__item-bl:last-child{
-    border-right: none;
-}
-.services__item-bl{
     x-container {
     display: -ms-flexbox;
     display: -webkit-flex;
@@ -983,7 +981,17 @@ width: 33.33%;
     -webkit-align-items: center;
     -ms-flex-align: center;
     align-items: center;
-    }
+    
+
+}
+
+.services__item-bl:last-child{
+    border: none;
+}
+.services__item-bl:nth-child(3){
+    border: none;
+}
+
     
 }
 .services__item-bl p{
@@ -1001,6 +1009,144 @@ width: 33.33%;
     color: #fff;
     text-shadow: 2px 2px 7px rgba(0,0,0,0.8);
 }
+
+.bank{
+    background: url(../img/Alfa-Bank.svg_-1-1024x361.png) no-repeat;
+    -webkit-background-size: 60%;
+    background-size: 60%;
+    
+}
+.bank1{
+    background: url(../img/БТА-банк-1-1024x431.png) no-repeat;
+    -webkit-background-size: 60%;
+    background-size: 60%;
+}
+.bank2{
+    background: url(../img/06575e1413cd01a88344ee03fa20570c-1.png) no-repeat;
+    -webkit-background-size: 60%;
+    background-size: 60%;
+}
+.bank3{
+    background: url(../img/правекс-1.png) no-repeat;
+    -webkit-background-size: 60%;
+    background-size: 60%;
+}
+.bank4{
+    background: url(../img/privat-bank-1-1024x184.png) no-repeat;
+    -webkit-background-size: 60%;
+    background-size: 60%;
+}
+.bank5{
+    background: url(../img/ПУМБ-1.png) no-repeat;
+    -webkit-background-size: 60%;
+    background-size: 60%;
+}
+.bank6{
+    background: url(../img/Райффайзен-банк-АВАЛЬ-1-1024x337.png) no-repeat;
+    -webkit-background-size: 60%;
+    background-size: 60%;
+}
+.bank7{
+    background: url(../img/Tas_wikipedia-1.png) no-repeat;
+    -webkit-background-size: 60%;
+    background-size: 60%;
+}
+.bank8{
+    background: url(../img/укргазбанк-1.jpg) no-repeat;
+    -webkit-background-size: 60%;
+    background-size: 60%;
+}
+.bank9{
+    background: url(../img/Укрсоцбанк-1-1024x682.jpg) no-repeat;
+    -webkit-background-size: 60%;
+    background-size: 60%;
+}
+.bank10{
+    background: url(../img/Форвард-банк-1.png) no-repeat;
+    -webkit-background-size: 60%;
+    background-size: 60%;
+}
+.bank11{
+    background: url(../img/ОТП-факторинг-1.png) no-repeat;
+    -webkit-background-size: 60%;
+    background-size: 60%;
+}
+.bank12{
+    background: url(../img/Tas_wikipedia-1.png) no-repeat;
+    -webkit-background-size: 60%;
+    background-size: 60%;
+}
+.bank13{
+    background: url(../img/Тимошенко-та-партнери-лого-1-1024x424.png) no-repeat;
+    -webkit-background-size: 60%;
+    background-size: 60%;
+}
+.bank14{
+    background: url(../img/довіра-і-гарантія.png) no-repeat;
+    -webkit-background-size: 60%;
+    background-size: 60%;
+}
+.bank15{
+    background: url(../img/Tekro-1.jpg) no-repeat;
+    -webkit-background-size: 60%;
+    background-size: 60%;
+}
+.bank16{
+    background: url(../img/ДТЕК-1.png) no-repeat;
+    -webkit-background-size: 60%;
+    background-size: 60%;
+}
+.bank17{
+    background: url(../img/sk-axa-logo-1.png) no-repeat;
+    -webkit-background-size: 60%;
+    background-size: 60%;
+}
+.bank18{
+    background: url(../img/фондгарвкладів-1.png) no-repeat;
+    -webkit-background-size: 60%;
+    background-size: 60%;
+}
+.bank19{
+    background: url(../img/Uniqa-1.png) no-repeat;
+    -webkit-background-size: 60%;
+    background-size: 60%;
+}
+.bank20{
+    background: url(../img/кредитн-ініц-1.png) no-repeat;
+    -webkit-background-size: 60%;
+    background-size: 60%;
+}
+.bank21{
+    background: url(../img/porshe_001_650x410-1.jpg) no-repeat;
+    -webkit-background-size: 60%;
+    background-size: 60%;
+}
+.bank22{
+    background: url(../img/укрборг-1.jpg) no-repeat;
+    -webkit-background-size: 60%;
+    background-size: 60%;
+}
+.bank23{
+    background: url(../img/OTP-банк2-1-1024x325.jpg) no-repeat;
+    -webkit-background-size: 60%;
+    background-size: 60%;
+}
+.bank24{
+    background: url(../img/IFC.jpg) no-repeat;
+    -webkit-background-size: 60%;
+    background-size: 60%;
+}
+.bank25{
+    background: url(../img/PravoJusticeLogo600x600-1.jpg) no-repeat;
+    -webkit-background-size: 60%;
+    background-size: 60%;
+}
+.bank26{
+    background: url(../img/apvu-logo-1.jpg) no-repeat;
+    -webkit-background-size: 60%;
+    background-size: 60%;
+}
+
 
 
 /*footer*/
@@ -1302,7 +1448,7 @@ body {
 }
 
   .header{
-    background: #484250;
+    
             
     max-height: 860px;
     -webkit-background-size: cover;
@@ -1341,11 +1487,19 @@ body {
     
     font-size: 13px;
 }
+.flex {
+    
+    height: 100px;
+}
 .logo {
     position: absolute;
-    left: 50%;
-    transform: translate(-50%);
+    left: 2%;
+    
     }
+.logo img{
+    height: 90px;
+    width: 90px;
+}
 .header__tekst {
     
     text-align: center;
