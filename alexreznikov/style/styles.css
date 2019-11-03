@@ -713,6 +713,9 @@ width: 33.33%;
     font-size: 14px;
     line-height: 2;
 }
+.why__wrap-inner i{
+    padding-right: 5px;
+}
 .why-list__marginBottom{
     color: #595361;
     
@@ -745,12 +748,47 @@ width: 33.33%;
    
 
 }
-
-.slider__inner img{
-    height: 250px;
-    float: left;
-    padding-right:  40px;
+.slider__inner {
+    height: 250px; 
 }
+.slider__inner img{
+    height: 145px;
+    
+    padding-right:  40;
+
+    -webkit-filter: grayscale(100%);
+  -moz-filter: grayscale(100%);
+  -ms-filter: grayscale(100%);
+  -o-filter: grayscale(100%);
+  filter: grayscale(100%);
+  filter: gray; /* IE 6-9 */
+/*Добавим вот такой вот код*/
+  -webkit-transition: all 1s;
+  -moz-transition: all 1s;
+  -o-transition: all 1s;
+  transition: all 1s;
+/*конец кода с transition*/
+}
+
+.slider__inner img:hover {
+  -webkit-filter: none;
+  -moz-filter: none;
+  -ms-filter: none;
+  -o-filter: none;
+  filter: none;
+  filter: none; /* IE 6-9 */
+  transform: scale()
+
+}
+
+
+.scale {
+    transition: 1s; /* Время эффекта */
+   }
+   .scale:hover {
+    transform: scale(1.2); /* Увеличиваем масштаб */
+   }
+
 /*why end*/
 .brown{
     position: relative;    
@@ -1517,6 +1555,20 @@ body {
 .why__wrap-inner{
    
     width: 100%;
+}
+.why__wrap{
+    padding: 20px 10px;
+    display: -webkit-flex;
+    display: -moz-flex;
+    display: -ms-flex;
+    display: -o-flex;
+    display: flex;
+    flex-direction: column;
+    
+}
+.why__wrap-inner{
+    padding: 2px 1px;
+    
 }
 .counter{
 

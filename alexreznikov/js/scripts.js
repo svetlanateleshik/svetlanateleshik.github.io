@@ -1,9 +1,19 @@
 $(document).ready(function () {
 
+$('a[href*="#"]').on('click', function (e) {
+  e.preventDefault();
+ 
+  $('html, body').animate({
+    scrollTop: $($(this).attr('href')).offset().top
+  }, 600, 'linear');
+  });
 $('.slider').slick({
-  dots: true,
+  dots: false,
   infinite: true,
   speed: 300,
+
+  slidesToShow: 4,
+  slidesToScroll: 4
     
   });
 
