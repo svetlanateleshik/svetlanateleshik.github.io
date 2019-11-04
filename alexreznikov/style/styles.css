@@ -1502,15 +1502,34 @@ body {
 .navbar{
     display: none;
 }
+.sociallink{
+    position: absolute;
+    top: 5px;
+    right: 10px;
+}
+.header__inner-nav{
+padding: 5px 5px;
+}
 .header__inner-nav li:before {
     
     left: 2px;
 }
 .header__inner-nav li {
     
-    font-size: 10px;
-    padding-left: 10px;
+    font-size: 9px;
+    padding-left: 5px;
     
+}
+.slick-dots {
+    position: absolute;
+    bottom: 125px;
+    }
+.slider__inner img {
+    height: 85px;
+    }
+.header__inner:before {
+    
+    top: 35px;
 }
 .header__tekst p {
    
