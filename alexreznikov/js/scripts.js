@@ -8,12 +8,11 @@ $('a[href*="#"]').on('click', function (e) {
   }, 600, 'linear');
   });
 $('.slider').slick({
-  dots: false,
+  dots: true,
   infinite: true,
   speed: 300,
-
-  slidesToShow: 4,
-  slidesToScroll: 4
+  slidesToShow: 3,
+  slidesToScroll: 1
     
   });
 
