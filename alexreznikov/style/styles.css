@@ -1839,8 +1839,15 @@ padding: 5px 5px;
     bottom: 125px;
     }
 .slider__inner img {
-    height: 85px;
+    height: 80px;
     }
+    .slider__inner-text {
+    
+    right: 8px;
+}
+.slider__inner-text p{
+    font-size: 4px;
+}
 .header__inner:before {
     
     top: 35px;
