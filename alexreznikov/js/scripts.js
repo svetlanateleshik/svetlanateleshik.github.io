@@ -22,6 +22,7 @@ $('a[href*="#"]').on('click', function (e) {
     toggle.addEventListener( "click", function(e) {
       e.preventDefault();
       (this.classList.contains("is-active") === true) ? this.classList.remove("is-active") : this.classList.add("is-active");
+    $('.small-menu').toggleClass('active-menu')
     });
   }
 
