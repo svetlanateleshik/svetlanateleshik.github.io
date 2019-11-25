@@ -208,105 +208,7 @@ body{
     color: #f7d494;
 }
 
-.c-hamburger {
-  display: none;
-  
-  
-  position: relative;
-  
-  
-  overflow: hidden;
-  margin: 0;
-  padding: 0;
-  width: 56px;
-  height: 56px;
-  font-size: 0;
-  text-indent: -9999px;
-  appearance: none;
-  box-shadow: none;
-  border-radius: none;
-  border: none;
-  cursor: pointer;
-  transition: background 0.3s;
-}
- 
-.c-hamburger:focus {
-  outline: none;
-}
-.c-hamburger span {
-  display: block;
-  position: absolute;
-  top: 24px;
-  left: 18px;
-  right: 18px;
-  height: 4px;
-  background: white;
-}
- 
-.c-hamburger span::before,
-.c-hamburger span::after {
-  position: absolute;
-  display: block;
-  left: 0;
-  width: 100%;
-  height: 4px;
-  background-color: #fff;
-  content: "";
-}
- 
-.c-hamburger span::before {
-  top: -7px;
-}
- 
-.c-hamburger span::after {
-  bottom: -7px;
-}
-.c-hamburger--htx {
-  background-color: ;
-  opacity: 0;
-}
- 
-.c-hamburger--htx span {
-  transition: background 0s 0.3s;
-}
- 
-.c-hamburger--htx span::before,
-.c-hamburger--htx span::after {
-  transition-duration: 0.3s, 0.3s;
-  transition-delay: 0.3s, 0s;
-}
- 
-.c-hamburger--htx span::before {
-  transition-property: top, transform;
-}
- 
-.c-hamburger--htx span::after {
-  transition-property: bottom, transform;
-}
- 
-/* состояние active при открытом меню  */
-.c-hamburger--htx.is-active {
-  background-color: ;
-}
- 
-.c-hamburger--htx.is-active span {
-  background: none;
-}
- 
-.c-hamburger--htx.is-active span::before {
-  top: 0;
-  transform: rotate(45deg);
-}
- 
-.c-hamburger--htx.is-active span::after {
-  bottom: 0;
-  transform: rotate(-45deg);
-}
- 
-.c-hamburger--htx.is-active span::before,
-.c-hamburger--htx.is-active span::after {
-  transition-delay: 0s, 0.3s;
-}
+
 .header__contakt-list{
     text-align: end;
 
@@ -782,25 +684,22 @@ width: 33.33%;
 }
 /* конец кнопки звонка */
 /* button starting stylings ------------------------------- */
-.flex button{
-    display: none;
-}
-
 .toggle-hamburger {
   
-  background-color: #000;
-  opacity: 0.1;
-  
-  display: block;
+  display: none;
+  position: relative;
   position: absolute;
-  right: 2%;
+  right: 0;
   overflow: hidden;
   margin: 0;
   padding: 0;
   width: 96px;
   height: 96px;
   font-size: 0;
-  
+  text-indent: -9999px;
+  -webkit-appearance: none;
+     -moz-appearance: none;
+          appearance: none;
   box-shadow: none;
   border: none;
   border-radius: none;
@@ -819,7 +718,7 @@ width: 33.33%;
   left: 18px;
   right: 18px;
   height: 8px;
-  background: #fff;
+  background: #ff3264;
 }
 .toggle-hamburger span::before, .toggle-hamburger span::after {
   position: absolute;
@@ -827,7 +726,7 @@ width: 33.33%;
   left: 0;
   width: 100%;
   height: 8px;
-  background-color: #fff;
+  background-color: #ff3264;
   content: "";
 }
 .toggle-hamburger span::before {
@@ -836,7 +735,6 @@ width: 33.33%;
 .toggle-hamburger span::after {
   bottom: -20px;
 }
-
 .toggle-hamburger.toggle-hamburger__check span {
   background-color: #fff;
   -webkit-transition: background 0s, transform 0.3s;
@@ -868,7 +766,7 @@ width: 33.33%;
           transform: rotate(90deg);
 }
 .toggle-hamburger.toggle-hamburger__check.is-active span::before, .toggle-hamburger.toggle-hamburger__check.is-active span::after {
-  background-color: ;
+  background-color: #fff;
   left: -8px;
 }
 .toggle-hamburger.toggle-hamburger__check.is-active span::before {
@@ -883,6 +781,47 @@ width: 33.33%;
   width: 50%;
 }
 
+
+
+
+
+
+.small-menu {
+        display: none;
+        list-style: none;
+        padding-left: 0;
+        text-transform: uppercase;
+}
+.small-menu a{
+    text-decoration: none;
+    color: #fff;
+    text-transform: uppercase;
+    
+
+}
+
+
+/* when menu open: */
+.toggle-hamburger.toggle-hamburger__check.is-active span {
+  background: none;
+  -webkit-transform: rotate(90deg);
+          transform: rotate(90deg);
+}
+.toggle-hamburger.toggle-hamburger__check.is-active span::before, .toggle-hamburger.toggle-hamburger__check.is-active span::after {
+  background-color: ;
+  left: -8px;
+}
+.toggle-hamburger.toggle-hamburger__check.is-active span::before {
+  top: 8px;
+  -webkit-transform: translateX(8px) translateY(4px) rotate(45deg);
+          transform: translateX(8px) translateY(4px) rotate(45deg);
+}
+.toggle-hamburger.toggle-hamburger__check.is-active span::after {
+  bottom: -8px;
+  -webkit-transform: translateX(38px) translateY(-4px) rotate(-45deg);
+          transform: translateX(38px) translateY(-4px) rotate(-45deg);
+  width: 50%;
+}
 /*end header*/
 /*why*/
 .why{
@@ -1043,7 +982,7 @@ width: 33.33%;
     border-color: #999999;
     margin-bottom: 60px;
 }
-.article-wrapper article h1 {
+.article-wrapper article h2 {
     margin: 30px 0;
     font-size: 24px;
 }
@@ -1815,25 +1754,28 @@ padding: 5px 5px;
     padding-left: 5px;
     
 }
-.menu-toogle {
-                display: block;
-                float: right;
-                margin-right: 50px;
-        }
+.toggle-hamburger {
+  
+  display: block;
+  }
+
         .small-menu.active-menu {
                 display: block;
                 position: absolute;
-                top: 150px;
+                top: 100px;
                 right: 0;
                 left: 0;
                 z-index: 10;
                 text-align: center;
-                background: rgba(50,46,73,0.7);
+                background: rgb(72, 66, 80, 0.7);
                 animation: menu-active-slide 3s;
         }
         .small-menu li {
-                margin: 10px;
+                margin: 14px;
         }
+        .navigation-item {
+     display: block;
+ }
 .slick-dots {
     position: absolute;
     bottom: 125px;
