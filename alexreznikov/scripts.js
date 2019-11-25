@@ -7,14 +7,34 @@ $('a[href*="#"]').on('click', function (e) {
     scrollTop: $($(this).attr('href')).offset().top
   }, 600, 'linear');
   });
+(function() {
+
+  "use strict";
+
+  var toggles = document.querySelectorAll(".toggle-hamburger");
+
+  for (var i = toggles.length - 1; i >= 0; i--) {
+    var toggle = toggles[i];
+    toggleHandler(toggle);
+  };
+
+  function toggleHandler(toggle) {
+    toggle.addEventListener( "click", function(e) {
+      e.preventDefault();
+      (this.classList.contains("is-active") === true) ? this.classList.remove("is-active") : this.classList.add("is-active");
+    $('.small-menu').toggleClass('active-menu')
+    });
+  }
+
+})();
+
+
 $('.slider').slick({
-  dots: true,
-  infinite: true,
-  speed: 300,
   slidesToShow: 3,
-  slidesToScroll: 1
-    
-  });
+  slidesToScroll: 1,
+  autoplay: true,
+  autoplaySpeed: 2000,
+});
 
  var time = 2, cc = 1;
  $(window).scroll(function(){
