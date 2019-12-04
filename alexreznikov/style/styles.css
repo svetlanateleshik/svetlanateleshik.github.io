@@ -834,16 +834,20 @@ width: 33.33%;
     display: -o-flex;
     display: flex;
     justify-content: space-between;
+
+
 }
 .why__wrap-inner{
     padding: 20px 10px;
     width: 33%;
+
 }
 .why__wrap-inner span{
     font-size: 30px;
     line-height: 1,5;
     font-weight: bold;
     color: #000;
+    
 }
 .why__wrap-span{
      font-size: 30px;
@@ -1062,6 +1066,16 @@ font-size: 20px;
     margin: 0 auto; /* выровняем по центру */
     padding-bottom: 40px;
 }
+.services__title-white{
+    padding: 40px;
+    font-size: 45px;
+    color: #fff;
+    
+}
+.services__item-b img{
+    height: 50px;
+    margin-bottom: 15px;
+}
 
 .services__item-block{
     flex: 1 1 calc(30% - 20px);
@@ -1130,6 +1144,54 @@ font-size: 20px;
     font-weight: bold;
     font-size: 13px;
     text-shadow: 2px 2px 7px rgba(0,0,0,0.8);     
+}
+
+.services__item-b{
+    flex:1 1 calc(25% - 20px); /* отнимем margin и скажем растягиваться */
+    margin:5px;
+    box-sizing:border-box; /* чтобы внутренний отступ не влиял когда там будет текст... */
+    min-width:170px; /* мин. ширина блока, чтобы переносились на другой ряд */
+    height: 190px;
+    padding:40px 25px; 
+    text-align:center;
+    border-bottom: : 1px solid; /* для красоты */
+    border-color: #fff; /*rgba(247, 212, 148, 0.6) */
+    ackground: rgb(34, 30, 30, 0.6);
+    x-container {
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    display: flex;
+    -webkit-flex-direction: row;
+    -ms-flex-direction: row;
+    flex-direction: row;
+    -webkit-flex-wrap: wrap;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+    -webkit-justify-content: space-between;
+    -ms-flex-pack: justify;
+    justify-content: space-between;
+    -webkit-align-content: stretch;
+    -ms-flex-line-pack: stretch;
+    align-content: stretch;
+    -webkit-align-items: center;
+    -ms-flex-align: center;
+    align-items: center;
+    
+
+}
+
+.services__item-b:last-child{
+    border: none;
+}
+.services__item-b:nth-child(3){
+    border: none;
+}
+
+    
+}
+.services__item-b p{
+    color: #FFF;
+    font-size: calc( (100vw - 480px)/(1280 - 480) * (12 - 8) + 12px);
 }
 /*end brown*/
 /*numbers*/
