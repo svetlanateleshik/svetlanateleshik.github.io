@@ -825,7 +825,7 @@ width: 33.33%;
 /*end header*/
 /*why*/
 .why{
-    background: #f8f8f8;
+   
 }
 .why__wrap{
     display: -webkit-flex;
@@ -833,7 +833,7 @@ width: 33.33%;
     display: -ms-flex;
     display: -o-flex;
     display: flex;
-    justify-content: space-between;
+    
 
 
 }
@@ -846,7 +846,7 @@ width: 33.33%;
     font-size: 30px;
     line-height: 1,5;
     font-weight: bold;
-    color: #000;
+    color: rgba(247, 212, 148);
     
 }
 .why__wrap-span{
@@ -861,8 +861,8 @@ width: 33.33%;
 }
 .why__wrap-inner p{
     color: #424242;
-    font-size: 14px;
-    line-height: 2;
+    font-size: 16px;
+    line-height: 1.9;
 }
 .why__wrap-inner i{
     padding-right: 5px;
@@ -1203,21 +1203,23 @@ font-size: 20px;
     height: 100vh;
     position: relative;
 }
-.counter{
+.counter {
+    
     position: absolute;
-    right: 10%;
-    top: 50%;
-    transform: translateY(-50%);
-    width: 500px;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    /* transform: translateY(-50%); */
+    /* width: 500px; */
     display: -webkit-flex;
     display: -moz-flex;
     display: -ms-flex;
     display: -o-flex;
     display: flex;
     flex-wrap: wrap;
-    max-width: 40%; /* макс ширина */
-    argin: 0 auto; /* выровняем по центру */
-    padding-bottom: 40px;
+    max-width: 45%;
+    argin: 0 auto;
+    /* padding-bottom: 40px; */
 }
 .bl{
     flex:1 1 calc(25% - 30px); /* отнимем margin и скажем растягиваться */
@@ -1916,11 +1918,18 @@ padding: 5px 5px;
 }
 .counter{
 
+    
     position: absolute;
-    left: 50%;
-    top: 50px;
-    transform: translateX(-50%);
-    }
+    /* left: 50%; */
+    right: 0;
+    top: 0;
+    /* transform: translateX(-50%); */
+}
+.why__wrap-inner p {
+    color: #fff;
+    font-size: 14px;
+    line-height: 1.6;
+}
 .numbers{
     background: url(../img/IMG_2345.jpg) center no-repeat;
 }
