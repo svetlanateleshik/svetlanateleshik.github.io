@@ -293,7 +293,7 @@ button a{
     display: -o-flex;
     display: flex;
     justify-content: space-between;
-    height: 90px;
+    height: 80px;
     
     
 
@@ -827,16 +827,7 @@ width: 33.33%;
 .why{
    
 }
-.why__wrap{
-    display: -webkit-flex;
-    display: -moz-flex;
-    display: -ms-flex;
-    display: -o-flex;
-    display: flex;
-    
 
-
-}
 .why__wrap-inner{
     padding: 20px 10px;
     width: 33%;
@@ -1840,6 +1831,21 @@ padding: 5px 5px;
         .navigation-item {
      display: block;
  }
+ .header__botom{
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    display: -webkit-flex;
+    display: -moz-flex;
+    display: -ms-flex;
+    display: -o-flex;
+    display: flex;
+    justify-content: space-between;
+    height: 70px;
+    
+    
+
+}
 .slick-dots {
     position: absolute;
     bottom: 125px;
