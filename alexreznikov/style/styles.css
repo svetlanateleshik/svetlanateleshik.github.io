@@ -1495,8 +1495,28 @@ font-size: 20px;
     background-size: 60%;
 }
 
+.description {
+    padding: 40px 0;
+    color: #797979;
+    
+    line-height: 1.46;
+}
+.description h1{
+    font-size: 2.5rem;
+    
+    text-align: center;
+}
 
-
+.description h2{
+    margin-top: 15px;
+    text-align: center;
+    font-size: 1.5rem;
+    margin-bottom: .5rem;
+    font-family: inherit;
+    font-weight: 500;
+    line-height: 1.2;
+    color: inherit;
+}
 /*footer*/
 
 .box-map{
