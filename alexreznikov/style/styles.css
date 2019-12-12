@@ -1496,7 +1496,7 @@ font-size: 20px;
 }
 
 .description {
-    padding: 40px 0;
+    padding: 40px 10px;
     color: #797979;
     
     line-height: 1.46;
