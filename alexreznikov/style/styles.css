@@ -260,6 +260,7 @@ header__tekst:before {
     font-size: 16px;
     text-transform: uppercase;
     font-weight: bold;
+    margin-bottom: 10px;
     letter-spacing: 0.7px;
     
 }
@@ -268,7 +269,7 @@ header__tekst:before {
     color: #fff;
     font-size: 43px;
     font-weight: bold;
-    line-height: 2;
+    line-height: 1.5;
 
 }
 .header__tekst button{
@@ -841,6 +842,7 @@ width: 33.33%;
     line-height: 1,5;
     font-weight: bold;
     color: rgba(247, 212, 148);
+
     
 }
 .why__wrap-span{
@@ -1208,8 +1210,8 @@ font-size: 20px;
 /*end brown*/
 /*numbers*/
 .numbers{
-    background: url(../img/IMG_2345.jpg) center no-repeat;
-    background-position: top ;
+    background: url(../img/IMG_2345_crnew.jpg)  no-repeat;
+    background-position:  top ;
     -webkit-background-size: cover;
     background-size: cover;
     height: 100vh;
@@ -1359,141 +1361,70 @@ font-size: 20px;
 }
 
 .bank{
-    background: url(../img/Alfa-Bank.svg_-1-1024x361.png) no-repeat;
+    background: url(../img/Alfa-Bank.svg_-1-1024x361.png) center no-repeat;
     -webkit-background-size: 60%;
     background-size: 60%;
     
 }
 .bank1{
-    background: url(../img/БТА-банк-1-1024x431.png) no-repeat;
+    background: url(../img/БТА-банк-1-1024x431.png) center no-repeat;
     -webkit-background-size: 60%;
     background-size: 60%;
 }
 .bank2{
-    background: url(../img/06575e1413cd01a88344ee03fa20570c-1.png) no-repeat;
+    background: url(../img/06575e1413cd01a88344ee03fa20570c-1.png) center no-repeat;
     -webkit-background-size: 60%;
     background-size: 60%;
 }
 .bank3{
-    background: url(../img/правекс-1.png) no-repeat;
+    background: url(../img/правекс-1.png) center no-repeat;
     -webkit-background-size: 60%;
     background-size: 60%;
 }
 .bank4{
-    background: url(../img/privat-bank-1-1024x184.png) no-repeat;
+    background: url(../img/privat-bank-1-1024x184.png) center no-repeat;
     -webkit-background-size: 60%;
     background-size: 60%;
 }
 .bank5{
-    background: url(../img/ПУМБ-1.png) no-repeat;
+    background: url(../img/ПУМБ-1.png) center no-repeat;
     -webkit-background-size: 60%;
     background-size: 60%;
 }
 .bank6{
-    background: url(../img/Райффайзен-банк-АВАЛЬ-1-1024x337.png) no-repeat;
+    background: url(../img/Райффайзен-банк-АВАЛЬ-1-1024x337.png) center no-repeat;
     -webkit-background-size: 60%;
     background-size: 60%;
 }
 .bank7{
-    background: url(../img/Tas_wikipedia-1.png) no-repeat;
+    background: url(../img/Tas_wikipedia-1.png) center no-repeat;
     -webkit-background-size: 60%;
     background-size: 60%;
 }
 .bank8{
-    background: url(../img/укргазбанк-1.jpg) no-repeat;
+    background: url(../img/укргазбанк-1.jpg) center no-repeat;
     -webkit-background-size: 60%;
     background-size: 60%;
 }
 .bank9{
-    background: url(../img/Укрсоцбанк-1-1024x682.jpg) no-repeat;
+    background: url(../img/Укрсоцбанк-1-1024x682.jpg) center no-repeat;
     -webkit-background-size: 60%;
     background-size: 60%;
 }
 .bank10{
-    background: url(../img/Форвард-банк-1.png) no-repeat;
+    background: url(../img/Форвард-банк-1.png) center no-repeat;
     -webkit-background-size: 60%;
     background-size: 60%;
 }
-.bank11{
-    background: url(../img/ОТП-факторинг-1.png) no-repeat;
-    -webkit-background-size: 60%;
-    background-size: 60%;
-}
-.bank12{
-    background: url(../img/Tas_wikipedia-1.png) no-repeat;
-    -webkit-background-size: 60%;
-    background-size: 60%;
-}
+
+
+
 .bank13{
-    background: url(../img/Тимошенко-та-партнери-лого-1-1024x424.png) no-repeat;
+    background: url(../img/OTP-банк2-1-1024x325.jpg) center no-repeat;
     -webkit-background-size: 60%;
     background-size: 60%;
 }
-.bank14{
-    background: url(../img/довіра-і-гарантія.png) no-repeat;
-    -webkit-background-size: 60%;
-    background-size: 60%;
-}
-.bank15{
-    background: url(../img/Tekro-1.jpg) no-repeat;
-    -webkit-background-size: 60%;
-    background-size: 60%;
-}
-.bank16{
-    background: url(../img/ДТЕК-1.png) no-repeat;
-    -webkit-background-size: 60%;
-    background-size: 60%;
-}
-.bank17{
-    background: url(../img/sk-axa-logo-1.png) no-repeat;
-    -webkit-background-size: 60%;
-    background-size: 60%;
-}
-.bank18{
-    background: url(../img/фондгарвкладів-1.png) no-repeat;
-    -webkit-background-size: 60%;
-    background-size: 60%;
-}
-.bank19{
-    background: url(../img/Uniqa-1.png) no-repeat;
-    -webkit-background-size: 60%;
-    background-size: 60%;
-}
-.bank20{
-    background: url(../img/кредитн-ініц-1.png) no-repeat;
-    -webkit-background-size: 60%;
-    background-size: 60%;
-}
-.bank21{
-    background: url(../img/porshe_001_650x410-1.jpg) no-repeat;
-    -webkit-background-size: 60%;
-    background-size: 60%;
-}
-.bank22{
-    background: url(../img/укрборг-1.jpg) no-repeat;
-    -webkit-background-size: 60%;
-    background-size: 60%;
-}
-.bank23{
-    background: url(../img/OTP-банк2-1-1024x325.jpg) no-repeat;
-    -webkit-background-size: 60%;
-    background-size: 60%;
-}
-.bank24{
-    background: url(../img/IFC.jpg) no-repeat;
-    -webkit-background-size: 60%;
-    background-size: 60%;
-}
-.bank25{
-    background: url(../img/PravoJusticeLogo600x600-1.jpg) no-repeat;
-    -webkit-background-size: 60%;
-    background-size: 60%;
-}
-.bank26{
-    background: url(../img/apvu-logo-1.jpg) no-repeat;
-    -webkit-background-size: 60%;
-    background-size: 60%;
-}
+
 
 .description {
     margin: 40px 15px;
@@ -1882,7 +1813,7 @@ padding: 5px 5px;
     display: -o-flex;
     display: flex;
     justify-content: space-between;
-    height: 70px;
+    height: 50px;
     
     
 
@@ -1914,10 +1845,7 @@ padding: 5px 5px;
 .header__tekst span{
     font-size: 16px;
 }
-.header__botom {
-    
-    height: 50px;
-    }
+
 .header__botom a {
     
     font-size: 13px;
@@ -1986,9 +1914,10 @@ padding: 5px 5px;
 
     
     position: absolute;
-    /* left: 50%; */
+    left: 50%; 
     right: 0;
     top: 0;
+    position: relative;
     /* transform: translateX(-50%); */
 }
 .why__wrap {
@@ -2000,7 +1929,7 @@ padding: 5px 5px;
     line-height: 1.4;
 }
 .numbers{
-    background: url(../img/IMG_2345.jpg) center no-repeat;
+    background: url(../img/IMG_2345.jpg) top\ no-repeat;
 }
 .services__item-bl img{
     height: 50px;
