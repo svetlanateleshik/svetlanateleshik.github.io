@@ -257,18 +257,17 @@ header__tekst:before {
 
 .header__tekst h1{
     color: #fff;
-    font-size: 16px;
-    text-transform: uppercase;
-    font-weight: bold;
-    margin-bottom: 10px;
-    letter-spacing: 0.7px;
+    font-size: 23px;
+    
+    margin-bottom: 20px;
+    letter-spacing: 0.1px;
     
 }
 
 .header__tekst p{
     color: #fff;
-    font-size: 43px;
-    font-weight: bold;
+        font-size: 2.5rem;
+    
     line-height: 1.5;
 
 }
@@ -328,7 +327,7 @@ width: 33.33%;
      color: #fff;
     font-size: calc( (100vw - 480px)/(1280 - 480) * (24 - 16) + 16px);
     
-    font-weight: bold;
+    
     letter-spacing: 0.7px;
 }
 .header__botom-inner img{
@@ -828,13 +827,42 @@ width: 33.33%;
 }
 /*end header*/
 /*why*/
+.numbers{
+    background: url(../img/IMG_2345_crnew.jpg)  no-repeat;
+    background-position:  top ;
+    -webkit-background-size: cover;
+    background-size: cover;
+    height: 100vh;
+    position: relative;
+}
+.counter {
+    
+    position: absolute;
+    left: 65%;
+    top: 50%;
+    
+    transform: translateY(-50%); 
+    /* width: 500px; */
+    display: -webkit-flex;
+    display: -moz-flex;
+    display: -ms-flex;
+    display: -o-flex;
+    display: flex;
+    flex-wrap: wrap;
+    max-width: 45%;
+    argin: 0 auto;
+    /* padding-bottom: 40px; */
+}
 .why{
    
 }
-
+.why__wrap{
+    
+}
 .why__wrap-inner{
     padding: 20px 10px;
     width: 55%;
+    
 
 }
 .why__wrap-inner span{
@@ -852,7 +880,8 @@ width: 33.33%;
     color: #fff;
 }
 .block{
-    min-height: 70px;
+    min-height: 60px;
+    margin-bottom: 10px;
 }
 .white-span{
     color: #fff;
@@ -861,11 +890,11 @@ width: 33.33%;
 .why__wrap-inner p{
     color: #fff;
     font-size: 16px;
-    line-height: 1.9;
-    text-shadow: 2px 2px 7px rgba(0,0,0,0.8);
+    line-height: 1.3;
+    text-shadow: 1px 1px 5px rgba(0,0,0,0.8);
 }
 .why__wrap-inner img{
-    height: 60px;
+    height: 50px;
     margin-right: 5px;
     float: left;
 }
@@ -1209,32 +1238,7 @@ font-size: 20px;
 }
 /*end brown*/
 /*numbers*/
-.numbers{
-    background: url(../img/IMG_2345_crnew.jpg)  no-repeat;
-    background-position:  top ;
-    -webkit-background-size: cover;
-    background-size: cover;
-    height: 100vh;
-    position: relative;
-}
-.counter {
-    
-    position: absolute;
-    right: 0;
-    top: 0;
-    bottom: 0;
-    /* transform: translateY(-50%); */
-    /* width: 500px; */
-    display: -webkit-flex;
-    display: -moz-flex;
-    display: -ms-flex;
-    display: -o-flex;
-    display: flex;
-    flex-wrap: wrap;
-    max-width: 45%;
-    argin: 0 auto;
-    /* padding-bottom: 40px; */
-}
+
 .bl{
     flex:1 1 calc(25% - 30px); /* отнимем margin и скажем растягиваться */
     color: #fff;
@@ -1845,7 +1849,6 @@ padding: 5px 5px;
 .header__tekst span{
     font-size: 16px;
 }
-
 .header__botom a {
     
     font-size: 13px;
@@ -1863,8 +1866,7 @@ padding: 5px 5px;
     height: 90px;
     width: 90px;
 }
-.header__tekst {
-    
+.header__tekst {    
     text-align: center;
     position: absolute;
     top: 60%;
@@ -1910,14 +1912,12 @@ padding: 5px 5px;
     margin-right: 5px;
     float: left;
 }
-.counter{
-
-    
+.counter{    
     position: absolute;
     left: 50%; 
     right: 0;
-    top: 0;
-    position: relative;
+    
+    
     /* transform: translateX(-50%); */
 }
 .why__wrap {
@@ -1926,7 +1926,7 @@ padding: 5px 5px;
 .why__wrap-inner p {
     color: #fff;
     font-size: 14px;
-    line-height: 1.4;
+    line-height: 1;
 }
 .numbers{
     background: url(../img/IMG_2345.jpg) top\ no-repeat;
