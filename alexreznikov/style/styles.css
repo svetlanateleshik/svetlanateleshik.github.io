@@ -2153,7 +2153,7 @@ min-width: 17px;
 }
 
 .why__wrap-inner img{
-    height: 23px;
+    height: 22px;
     margin-right: 5px;
     float: left;
 }
@@ -2161,13 +2161,13 @@ min-width: 17px;
     position: absolute;
     left: 60%; 
     right: 0;
-    top: 45%;
+    top: 50%;
     
     
     /* transform: translateX(-50%); */
 }
 .block{
-    margin-bottom: 4px;
+    margin-bottom: 3px;
 }
 .why__wrap {
     padding: 15px 10px;
@@ -2184,8 +2184,8 @@ min-width: 17px;
 }
 .services{
     
-    padding-top: none;
-    padding-bottom: none;
+    padding-top: 1px;
+    padding-bottom: 1px;
 }
 .services__item-bl img{
     height: 50px;
