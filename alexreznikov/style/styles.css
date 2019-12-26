@@ -2125,7 +2125,7 @@ min-width: 17px;
 }
 .why__wrap-inner span {
 
-    font-size: 12px;
+    font-size: 11px;
 }
 .why__wrap-inner{
    
@@ -2146,22 +2146,22 @@ min-width: 17px;
     
 }
 .block{
-    min-height: 30px;
+    min-height: 25px;
 }
 .description {
    width: 90%;
 }
 
 .why__wrap-inner img{
-    height: 25px;
+    height: 23px;
     margin-right: 5px;
     float: left;
 }
 .counter{    
     position: absolute;
-    left: 50%; 
+    left: 60%; 
     right: 0;
-    top: 40%;
+    top: 45%;
     
     
     /* transform: translateX(-50%); */
@@ -2174,7 +2174,7 @@ min-width: 17px;
     }
 .why__wrap-inner p {
     color: #fff;
-    font-size: 8px;
+    font-size: 7px;
     line-height: 1;
 }
 .numbers{
