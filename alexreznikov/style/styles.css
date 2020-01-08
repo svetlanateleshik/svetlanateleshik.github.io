@@ -827,7 +827,7 @@ width: 33.33%;
     background-size: cover;
 
 }
-.services-wrap{
+.services-one{
     text-align: center;
     padding-top: 20px;
     padding-bottom: 20px;
@@ -838,6 +838,7 @@ width: 33.33%;
     padding: 10px;
     font-size: 35px;
     color: #000;
+    text-align: center;
     
 }
 
@@ -1758,12 +1759,22 @@ padding: 5px 5px;
     .services__title-white {
     padding: 20px;
 }
-.item-bl {
-    
-    min-width: 100px;
-    
+.item-bl{
+        flex: 1 1 calc(30% - 20px);
+    min-width: 17px;
+    height: 120px;
     padding: 10px 5px;
 }
+.item-bl p{
+    color: #424242;
+    font-size: calc( (100vw - 480px)/(1280 - 480) * (12 - 8) + 8px);
+}
+
+.item-bl img{
+    height: 30px;
+    margin-bottom: 5px;
+}
+
 
 .item-b{
 min-width: 17px;
@@ -1889,18 +1900,22 @@ min-width: 17px;
     padding-top: 1px;
     padding-bottom: 1px;
 }
+.services p {
+    padding-top: 5px;
+}
 .services__item-bl img{
-    height: 50px;
+    height: 30px;
 }
-.services__item-bl {
-    
-    height: 200px;
-        }
-.bl {
-   
-  
+.services__item-bl{
+    flex:1 1 calc(25% - 10px); /* отнимем margin и скажем растягиваться */
+    margin:5px;
+    box-sizing:border-box; /* чтобы внутренний отступ не влиял когда там будет текст... */
+    min-width:70px; /* мин. ширина блока, чтобы переносились на другой ряд */
+    height: 70px;
+    padding:0px 5px; 
     
 }
+
 .footer__iframe {
 
     width: 100%;
