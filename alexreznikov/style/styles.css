@@ -827,25 +827,21 @@ width: 33.33%;
     background-size: cover;
 
 }
-.services__wrap-grey{   
-    color: #000;   
-
-}
-.services{
+.services-wrap{
     text-align: center;
-    padding-top: 30px;
-    padding-bottom: 30px;
+    padding-top: 20px;
+    padding-bottom: 20px;
 }
 
 
-.services__title-grey{
-    padding: 40px;
-    font-size: 45px;
+.title{
+    padding: 10px;
+    font-size: 35px;
     color: #000;
     
 }
 
-.services__item-grey{
+.services__item-white{
 
     display: -webkit-flex;
     display: -moz-flex;
@@ -857,17 +853,17 @@ width: 33.33%;
 
     max-width: 1170px; /* макс ширина */
     margin: 0 auto; /* выровняем по центру */
-    padding-bottom: 40px;
+    
     position: relative;
 }
 
-.services__item-bl{
+.item-bl{
     flex:1 1 calc(30% - 20px); /* отнимем margin и скажем растягиваться */
     margin:5px;
     box-sizing:border-box; /* чтобы внутренний отступ не влиял когда там будет текст... */
     min-width:170px; /* мин. ширина блока, чтобы переносились на другой ряд */
-    height: 230px;
-    padding:30px 25px; 
+    
+    padding:0 15px; 
     text-align:center;
     border-right: 1px solid; /* для красоты */
     border-color: rgba(247, 212, 148, 0.6);
@@ -895,86 +891,64 @@ width: 33.33%;
 
 }
 
-.services__item-bl:last-child{
+.item-bl:last-child{
     border: none;
 }
-.services__item-bl:nth-child(3){
+.item-bl:nth-child(3){
     border: none;
 }
 
     
 }
-.services__item-bl p{
+.item-bl p{
     color: #424242;
     font-size: calc( (100vw - 480px)/(1280 - 480) * (12 - 8) + 8px);
 }
-}
-.services p{
-    padding-top: 50px;
-    font-weight: bold;
-    text-decoration: none;
-    
-    text-align: center;
-    margin-bottom: 20px;
-    color: #fff;
-    text-shadow: 2px 2px 7px rgba(0,0,0,0.8);
+
+.item-bl img{
+    height: 50px;
+    margin-bottom: 15px;
 }
 
 
-.services__wrap{   
-    color: #fff;   
 
-}
-.services__title{
-    padding: 40px;
-    font-size: 45px;
-    color: #fff;
-    text-shadow: 2px 2px 7px rgba(0,0,0,0.9);
-}
 
-.services__item{
 
-    display: -webkit-flex;
-    display: -moz-flex;
-    display: -ms-flex;
-    display: -o-flex;
-    display: flex;
-        display: flex;
-    flex-wrap: wrap;
+/*end white*/
+/*brown*/
 
-    max-width: 1170px; /* макс ширина */
-    margin: 0 auto; /* выровняем по центру */
-    padding-bottom: 40px;
-}
-.services__title-white{
-    padding: 40px;
-    font-size: 45px;
-    color: #fff;
-    
-}
-.white{
+.brown{
     position: relative;    
-    height: auto;    
-    background: #f8f8f8;
+    height: auto;
+    background: #484250 0 0 no-repeat;
     -webkit-background-size: cover;
     background-size: cover;
 
 }
-.services__wrap-grey{   
-    color: #000;   
-
+.services__wrap-grey{
+    text-align: center;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+.services p{
+    padding-top: 50px;
+    font-weight: bold;
+    text-decoration: none;
+    
+    text-align: center;
+    margin-bottom: 20px;
+    color: #fff;
+    text-shadow: 2px 2px 7px rgba(0,0,0,0.8);
 }
 
-
-
-.services__title-grey{
-    padding: 40px;
-    font-size: 45px;
-    color: #000;
+.title-white{
+    padding: 10px;
+    font-size: 35px;
+    color: #fff;
+    text-align: center;
     
 }
-
-.services__item-grey{
+.services__item-purple{
 
     display: -webkit-flex;
     display: -moz-flex;
@@ -986,186 +960,17 @@ width: 33.33%;
 
     max-width: 1170px; /* макс ширина */
     margin: 0 auto; /* выровняем по центру */
-    padding-bottom: 40px;
+    padding-bottom: 20px;
     position: relative;
 }
 
-.services__item-bl{
-    flex:1 1 calc(30% - 20px); /* отнимем margin и скажем растягиваться */
-    margin:5px;
-    box-sizing:border-box; /* чтобы внутренний отступ не влиял когда там будет текст... */
-    min-width:170px; /* мин. ширина блока, чтобы переносились на другой ряд */
-    height: 230px;
-    padding:30px 25px; 
-    text-align:center;
-    border-right: 1px solid; /* для красоты */
-    border-color: rgba(247, 212, 148, 0.6);
-    ackground: rgb(34, 30, 30, 0.6);
-    x-container {
-    display: -ms-flexbox;
-    display: -webkit-flex;
-    display: flex;
-    -webkit-flex-direction: row;
-    -ms-flex-direction: row;
-    flex-direction: row;
-    -webkit-flex-wrap: wrap;
-    -ms-flex-wrap: wrap;
-    flex-wrap: wrap;
-    -webkit-justify-content: space-between;
-    -ms-flex-pack: justify;
-    justify-content: space-between;
-    -webkit-align-content: stretch;
-    -ms-flex-line-pack: stretch;
-    align-content: stretch;
-    -webkit-align-items: center;
-    -ms-flex-align: center;
-    align-items: center;
-    
-
-}
-
-.services__item-bl:last-child{
-    border: none;
-}
-.services__item-bl:nth-child(3){
-    border: none;
-}
-
-    
-}
-.services__item-bl p{
-    color: #424242;
-    font-size: calc( (100vw - 480px)/(1280 - 480) * (12 - 8) + 8px);
-}
-}
-.services p{
-    padding-top: 50px;
-    font-weight: bold;
-    text-decoration: none;
-    
-    text-align: center;
-    margin-bottom: 20px;
-    color: #fff;
-    text-shadow: 2px 2px 7px rgba(0,0,0,0.8);
-}
-
-
-.services__wrap{   
-    color: #fff;   
-
-}
-.services__title{
-    padding: 40px;
-    font-size: 45px;
-    color: #fff;
-    text-shadow: 2px 2px 7px rgba(0,0,0,0.9);
-}
-
-.services__item{
-
-    display: -webkit-flex;
-    display: -moz-flex;
-    display: -ms-flex;
-    display: -o-flex;
-    display: flex;
-        display: flex;
-    flex-wrap: wrap;
-
-    max-width: 1170px; /* макс ширина */
-    margin: 0 auto; /* выровняем по центру */
-    padding-bottom: 40px;
-}
-.services__title-white{
-    padding: 40px;
-    font-size: 45px;
-    color: #fff;
-    
-}
-.services__item-b img{
-    height: 50px;
-    margin-bottom: 15px;
-}
-
-.services__item-block{
-    flex: 1 1 calc(30% - 20px);
-     /* отнимем margin и скажем растягиваться */
-    margin:5px;
-    box-sizing:border-box; /* чтобы внутренний отступ не влиял когда там будет текст... */
-    min-width:170px; /* мин. ширина блока, чтобы переносились на другой ряд */
-    height: 190px;
-    padding:50px 50px; 
-    text-align:center;
-    border-bottom: 1px solid; /* для красоты */
-    
-    border-color: rgba(247, 212, 148, 0.6);
-    ackground: rgb(34, 30, 30, 0.6);
-
-}
-.services__item-block{
-    x-container {
-    display: -ms-flexbox;
-    display: -webkit-flex;
-    display: flex;
-    -webkit-flex-direction: row;
-    -ms-flex-direction: row;
-    flex-direction: row;
-    -webkit-flex-wrap: wrap;
-    -ms-flex-wrap: wrap;
-    flex-wrap: wrap;
-    -webkit-justify-content: space-between;
-    -ms-flex-pack: justify;
-    justify-content: space-between;
-    -webkit-align-content: stretch;
-    -ms-flex-line-pack: stretch;
-    align-content: stretch;
-    -webkit-align-items: center;
-    -ms-flex-align: center;
-    align-items: center;
-    }
-    
-}
-.services__item-block i{
-    font-size: 40px
-}
-.services__item-block img{
-    width: 50px;
-    margin-bottom: 10px;
-}
-.services__item-bl img{
-    height: 50px;
-    margin-bottom: 15px;
-}
-}
-.services p{
-    padding-top: 50px;
-    font-weight: bold;
-    text-decoration: none;
-    
-    text-align: center;
-    margin-bottom: 20px;
-    color: #fff;
-    text-shadow: 2px 2px 7px rgba(0,0,0,0.8);
-}
-.services li{
-    padding-top: 18px;
-    padding-bottom: 18px;
-}
-.services a{
-    color: #fff;
-    text-decoration: none;
-    text-transform: uppercase;
-    font-weight: bold;
-    font-size: 13px;
-    text-shadow: 2px 2px 7px rgba(0,0,0,0.8);     
-}
-
-.services__item-b{
+.item-b{
     flex:1 1 calc(25% - 20px); /* отнимем margin и скажем растягиваться */
     margin:5px;
     box-sizing:border-box; /* чтобы внутренний отступ не влиял когда там будет текст... */
-    min-width:170px; /* мин. ширина блока, чтобы переносились на другой ряд */
-    height: 190px;
-    padding:40px 25px; 
+    min-width:160px; /* мин. ширина блока, чтобы переносились на другой ряд */
+    
+    padding:0px 25px; 
     text-align:center;
     border-bottom: : 1px solid; /* для красоты */
     border-color: #fff; /*rgba(247, 212, 148, 0.6) */
@@ -1202,43 +1007,28 @@ width: 33.33%;
 
   
 }
-.services__item-b p{
+.item-b p{
     color: #FFF;
     font-size: calc( (100vw - 480px)/(1280 - 480) * (12 - 8) + 12px);
     text-transform: initial;
 
 }
-.services__item-b img{
+.item-b img{
+    height: 50px;
+    margin-bottom: 15px;
     transition: 1s;
 }
-.services__item-b img:hover {
+.item-b img:hover {
     transform: scale(1.4);
 }
+
 /*end brown*/
+
+
+
 /*numbers*/
 
-.bl{
-    flex:1 1 calc(25% - 30px); /* отнимем margin и скажем растягиваться */
-    color: #fff;
-    box-sizing:border-box; /* чтобы внутренний отступ не влиял когда там будет текст... */
-    min-width:170px; /* мин. ширина блока, чтобы переносились на другой ряд */
-    height: 190px;
-    padding:50px 50px; 
-    text-align:center;
-    border-bottom: 1px solid; /* для красоты */
-    border: #686c6b;
-    ackground: rgb(34, 30, 30, 0.6);
 
-}
-.bl .text{
-    font-size: 20px;
-}
-.number{
-
-    font-size: calc( (100vw - 480px)/(1280 - 480) * (24 - 16) + 32px);
-    padding: 0 0 25px;
-    font-weight: bold;
-}
 .numbers{
     background: url(../img/IMG_2345_crnew.jpg)  no-repeat;
     background-position:  top ;
@@ -1251,9 +1041,9 @@ width: 33.33%;
     
     position: absolute;
     left: 75%;
-    top: 50%;
+    top: 10%;
     
-    transform: translateY(-50%); 
+    /*transform: translateY(-50%)*/; 
     /* width: 500px; */
     display: -webkit-flex;
     display: -moz-flex;
@@ -1265,12 +1055,6 @@ width: 33.33%;
     argin: 0 auto;
     /* padding-bottom: 40px; */
 }
-.why{
-   
-}
-.why__wrap{
-    
-}
 .why__wrap-inner{
     padding: 20px 10px;
     width: 85%;
@@ -1278,62 +1062,35 @@ width: 33.33%;
 
 }
 .why__wrap-inner span{
-    font-size: 30px;
+    font-size: 17px;
     line-height: 1,5;
     font-weight: bold;
-    color: rgba(247, 212, 148);
+    color: rgba(247, 212, 148); 
 
-    
 }
-.why__wrap-span{
-     font-size: 30px;
-    line-height: 1,5;
-    font-weight: bold;
-    color: #fff;
-}
+
 .block{
     min-height: 60px;
     margin-bottom: 10px;
 }
-.white-span{
-    color: #fff;
-    z-index: 100;
-}
-.why__wrap-inner p{
+.block p{
     color: #fff;
     font-size: 12px;
     line-height: 1.1;
     text-shadow: 1px 1px 5px rgba(0,0,0,0.8);
 }
-.why__wrap-inner img{
+.block img{
     height: 45px;
     margin-right: 5px;
     float: left;
 }
-.why-list__marginBottom{
-    color: #595361;
-    
-    border-top: 1px solid;
-    padding: 15px 0;
-}
-.why-list__marginBottom:last-child{
-    border-bottom: 1px solid;
-}
-.why-list__marginBottom a{
-    color: #fff;
-    text-decoration: none;
-    font-size: 14px;
-    padding-left: 5px;
+/*end brown*/
 
-}
-.paddingLeft i{
-    padding-right: 5px;
-}
- .span{
-    font-size: 40px;
-    color: #f7d494;
-     float: left;
-     margin-right: 6px;
+/*start публикации*/
+.services__title-grey{
+     padding: 10px;
+    font-size: 35px;
+    color: #000;
 }
 .slider__inner p{
     text-align: justify;
@@ -1399,7 +1156,10 @@ width: 33.33%;
     transform: scale(1.2); /* Увеличиваем масштаб */
    }
 
-/*why end*/
+/*end публикации*/
+
+
+
 /*blog start*/
 
 .article-wrapper {
@@ -1483,60 +1243,18 @@ font-size: 20px;
 
 /*end number*/
 /*white*/
-.white{
-    position: relative;    
-    height: auto;
-    
-    background: #f8f8f8;
 
-    -webkit-background-size: cover;
-    background-size: cover;
-
-}
-
-.services{
-    text-align: center;
-    padding-top: 30px;
-    padding-bottom: 30px;
-}
-
-.services__wrap-grey{   
-    color: #000;   
-
-}
-.services__title-grey{
-    padding: 40px;
-    font-size: 45px;
-    color: #000;
-    
-}
-
-.services__item-grey{
-
-    display: -webkit-flex;
-    display: -moz-flex;
-    display: -ms-flex;
-    display: -o-flex;
-    display: flex;
-        display: flex;
-    flex-wrap: wrap;
-
-    max-width: 1170px; /* макс ширина */
-    margin: 0 auto; /* выровняем по центру */
-    padding-bottom: 40px;
-    position: relative;
-}
 
 .services__item-bl{
-    flex:1 1 calc(30% - 20px); /* отнимем margin и скажем растягиваться */
+    flex:1 1 calc(25% - 20px); /* отнимем margin и скажем растягиваться */
     margin:5px;
     box-sizing:border-box; /* чтобы внутренний отступ не влиял когда там будет текст... */
     min-width:170px; /* мин. ширина блока, чтобы переносились на другой ряд */
-    height: 230px;
-    padding:30px 25px; 
+    height: 100px;
+    padding:0px 25px; 
     text-align:center;
-    border-right: 1px solid; /* для красоты */
-    border-color: rgba(247, 212, 148, 0.6);
+    border-bottom: : 1px solid; /* для красоты */
+    border-color: #fff; /*rgba(247, 212, 148, 0.6) */
     ackground: rgb(34, 30, 30, 0.6);
     x-container {
     display: -ms-flexbox;
@@ -1561,19 +1279,10 @@ font-size: 20px;
 
 }
 
-.services__item-bl:last-child{
-    border: none;
-}
-.services__item-bl:nth-child(3){
-    border: none;
-}
 
-    
-}
-.services__item-bl p{
-    color: #424242;
-    font-size: calc( (100vw - 480px)/(1280 - 480) * (12 - 8) + 8px);
-}
+
+
+
 }
 .services p{
     padding-top: 50px;
@@ -1590,6 +1299,8 @@ font-size: 20px;
     background: url(../img/Alfa-Bank.svg_-1-1024x361.png) center no-repeat;
     -webkit-background-size: 60%;
     background-size: 60%;
+
+
     
 }
 .bank1{
@@ -1874,10 +1585,9 @@ body {
 .counter{
 
     position: absolute;
-    left: 50%;
-    top: 50px;
-    transform: translateX(-50%);
-    }
+    left: 60%;
+}
+    
 .numbers{
     background: url(../img/IMG_2345.jpg) center no-repeat;
 }
@@ -1929,13 +1639,7 @@ body {
    
     width: 100%;
 }
-.counter{
 
-    position: absolute;
-    left: 50%;
-    top: 50px;
-    transform: translateX(-50%);
-    }
 .numbers{
     background: url(../img/IMG_2345.jpg) center no-repeat;
 }
@@ -2054,14 +1758,14 @@ padding: 5px 5px;
     .services__title-white {
     padding: 20px;
 }
-.services__item-bl {
+.item-bl {
     
     min-width: 100px;
     
     padding: 10px 5px;
 }
 
-.services__item-b{
+.item-b{
 min-width: 17px;
     height: 150px;
     padding: 10px 5px;
@@ -2098,6 +1802,12 @@ min-width: 17px;
     
     font-size: 13px;
 }
+.counter {
+    
+    position: absolute;
+    left: 60%;
+    top: 0;
+    }
 .flex {
     
     height: 100px;
@@ -2157,15 +1867,7 @@ min-width: 17px;
     margin-right: 5px;
     float: left;
 }
-.counter{    
-    position: absolute;
-    left: 60%; 
-    right: 0;
-    top: 35%;
-    
-    
-    /* transform: translateX(-50%); */
-}
+
 .block{
     margin-bottom: 3px;
 }
