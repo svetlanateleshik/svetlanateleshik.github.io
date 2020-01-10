@@ -236,8 +236,9 @@ body{
 .header__tekst{
     text-align: right;
     position: absolute;
-    top: 25%;
+    top: 30%;
     right: 6%;
+    width: 500px;
     
 
     
@@ -248,7 +249,7 @@ body{
     color: #fff;
     font-size: 1.2em;
     
-    margin-bottom: 20px;
+    margin-bottom: px;
     letter-spacing: 0.1px;
     
 }
@@ -1160,13 +1161,15 @@ width: 33.33%;
 
 
 /*blog start*/
-
+.white{
+    text-align: center;
+}
 .article-wrapper {
-    
+    text-align: center;
     display: flex;
     flex-flow: row wrap;
     height: 100%;
-    width: 100%;
+    width: 60%;
     margin: 40px 0 0 0;
 }
 .article-wrapper .details {
