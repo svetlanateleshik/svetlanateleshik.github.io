@@ -236,7 +236,7 @@ body{
 .header__tekst{
     text-align: right;
     position: absolute;
-    top: 45%;
+    top: 25%;
     transform: translateY(-50%);
     right: 8%;
     
@@ -932,7 +932,7 @@ width: 33.33%;
     padding-bottom: 20px;
 }
 .services p{
-    padding-top: 50px;
+    
     font-weight: bold;
     text-decoration: none;
     
@@ -1041,7 +1041,7 @@ width: 33.33%;
 .counter {
     
     position: absolute;
-    left: 75%;
+    left: 65%;
     top: 10%;
     
     /*transform: translateY(-50%)*/; 
@@ -1057,8 +1057,7 @@ width: 33.33%;
     /* padding-bottom: 40px; */
 }
 .why__wrap-inner{
-    padding: 20px 10px;
-    width: 85%;
+    
     
 
 }
@@ -1081,7 +1080,7 @@ width: 33.33%;
     text-shadow: 1px 1px 5px rgba(0,0,0,0.8);
 }
 .block img{
-    height: 45px;
+    height: 47px;
     margin-right: 5px;
     float: left;
 }
@@ -1286,7 +1285,7 @@ font-size: 20px;
 
 }
 .services p{
-    padding-top: 50px;
+    
     font-weight: bold;
     text-decoration: none;
     
