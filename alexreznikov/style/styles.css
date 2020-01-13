@@ -1172,7 +1172,7 @@ width: 33.33%;
     height: 100%;
    margin-left: auto;
     margin-right: auto;
-    width: 70%;
+    width: 100%;
 }
 
 .article-wrapper .details {
@@ -1213,7 +1213,7 @@ width: 33.33%;
     height: auto;
     float: left;
 
-    width: 300px;
+    width: 400px;
 }
 .article__block p{
     font-size: 14px;    
