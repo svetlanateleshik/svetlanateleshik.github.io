@@ -1070,14 +1070,19 @@ width: 33.33%;
     
 
 }
-.why__wrap-inner span{
+.why__title{
+    margin-left: 52px;
+}
+.why__title span{
     font-size: 17px;
     line-height: 1,5;
     font-weight: bold;
-    color: rgba(247, 212, 148); 
+    color: white; 
 
 }
-
+.margin-top{
+    margin-top: 10px;
+}
 .block{
     min-height: 50px;
     margin-bottom: 10px;
@@ -1793,6 +1798,9 @@ padding: 5px 5px;
 }
 .desktop{
     display: none;
+}
+.why__title{
+    margin-left: 27px;
 }
 .item-bl{
         flex: 1 1 calc(30% - 20px);
