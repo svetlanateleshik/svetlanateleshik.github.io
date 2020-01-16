@@ -2010,3 +2010,7 @@ footer li:before{
     margin-bottom: 5px;
     
 }
+.article-wrapper article h2 {
+    margin: 15px 0;
+    font-size: 12px;
+}
