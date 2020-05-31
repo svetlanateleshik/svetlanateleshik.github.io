@@ -1,313 +1,793 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
+  <head>
+    <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>AlexReznikov</title>
-    <link rel="stylesheet" href="style/reset.css">
-    <link href="https://fonts.googleapis.com/css?family=Roboto:400,700,900" rel="stylesheet">
-    <link rel="stylesheet" href="slick/slick.css">
-    <link rel="stylesheet" href="slick/slick-theme.css">
-    <link rel="stylesheet" href="path/to/font-awesome/css/font-awesome.min.css">
-    <link href="https://fonts.googleapis.com/css?family=El+Messiri:400,700&display=swap&subset=cyrillic" rel="stylesheet">
-    <script src="https://kit.fontawesome.com/e2377460b8.js"></script>
-    <link rel="stylesheet" href="style/styles.css">
+    <meta name="description" content="">
+    <meta name="author" content="">
+    <link rel="shortcut icon" href="ico/favicon.png">
 
-</head>
-<body>
-    <header class="header">
-        <div class="header__inner"> 
-            <div class="container">
-                <div class="header__inner-nav">
-                    <ul>
-                    <li><a href="ru.html">RU</a></li>    
-                    <li>м. Київ, вул. Стрілецька, 7/6</li>
-                    <li>forworkreznikov@gmai.com</li>
-                    
-                    </ul>
-                    <ul>
-                    
-                    <li><a href="https://m.facebook.com/reznikov.alexandr"><img src="img/facebook.png" alt=""></a></li>
-                    <li><a href="https://instagram.com/alexandr__reznikov?igshid=jdc0g16vrhm"><img src="img/instagram.png" alt=""></a></li>
-                    
-                    </ul>
-                </div>      
-                <div class="flex">
-                    <div class="logo">
-                        
-                           <span>
-                             <img src="img/Reznikov_logo_uk.png" alt="">
-                            </span> 
-                    </div>            
-                    <div class="navbar">                    
-                                <ul class="navigation">
-                                    
-                                    <li class="navigation-item"><a href="#">Про мене</a></li>
-                                    <li class="navigation-item"><a href="#">Послуги</a></li>
-                                    <li class="navigation-item"><a href="#">Блог</a></li>
-                                    <li class="navigation-item"><a href="#">Контакти</a></li>
-                                             
-                                </ul>
-                    </div>                
-                </div>
-            </div>       
-        </div> 
-        <div class="header__tekst">
-            
-            <span>ПРИВАТНИЙ ВИКОНАВЕЦЬ</span>
-            <p>ОЛЕКСАНДР РЄЗНІКОВ</p>
-            <button><a href="">Детальніше</a></button>
-        
-        </div> 
-        <div class="header__botom">
-            <div class="header__botom-inner">
-                <a href="#brown">Повноваження</a></div>
-            <div class="header__botom-inner"><a href="#white">Переваги</a></div>
-            <div class="header__botom-inner"><a href="">Послуги</a></div>
-           
-            
-                
-            
-        </div>  
-        <div type="button" class="email-bt">
-    <div class="text-call">
-        <i class="fa fa-envelope" aria-hidden="true"></i>
-        <span>Написати<br>мені</span>
-    </div>
-</div>
+    <title>Flates flat and responsive landing page</title>
 
+    <!-- Bootstrap core CSS -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
 
-    
-        
+    <!-- Custom bootstrap styles -->
+    <link href="css/overwrite.css" rel="stylesheet">
 
-       <div type="button" class="callback-bt">
-        <a href="tel: +38 098 588 14 86" rel="nofollow">
-    <div class="text-call">
-        <i class="fa fa-phone"></i>
-        <span>Замовити<br>дзвінок</span>
-    </div>
-</a>
-</div>         
-        
-    </header>
-    <div class="why">
-        <div class="container__inner">
-            <div class="why__wrap">
-            <div class="why__wrap-inner">
-                <span>Чому я обрав професію приватного виконавця.</span>
-            </div>
-            <div class="why__wrap-inner">
-                <div class="span">S</div>
-                <p>uscipit voluptatibus explicabo omnis. Enim excepturi explicabo nam ea, blanditiis quae veniam dicta exercitationem, dignissimos, maxime accusamus tempore natus sit alias, deserunt. Fugit blanditiis, voluptatibus cumque. </p>
-            </div>
-            <div class="why__wrap-inner">
-                <p>Nam vero at tenetur, aut delectus corporis corrupti eaque deserunt facilis adipisci harum? Id quasi non molestias, veniam nostrum dignissimos recusandae eveniet, ea facilis placeat tempore fugiat nesciunt .</p>
-            </div>
-        </div>
-        <div class="slider">
-            <div class="slider__inner">
-    <img src="img/IMG_3982_cr.jpg" alt="">
-    <p>Не таємниця, що введення нової професії приватного виконавця - один з важливіших етапів судової реформи в Україні. 
-Яскравим підтвердженням цього став підвищений інтерес до міжнародньої конференції "Становлення та функціонування системи приватного виконання судових рішень", котра відбулась сьогодні. поради посприяють продуктивному старту нової діяльності</p>
-  </div>
-  <div class="slider__inner">
-    
-    <img src="img/IMG_3983_cr1.jpg" alt="">
+	<!-- font awesome -->
+	<link href="css/font-awesome.css" rel="stylesheet">
+    <!--[if lt IE 9]>
+	  <link href="css/font-awesome-ie7.css" rel="stylesheet">
+	<![endif]-->
+	<link href="css/font-awesome-set.css" rel="stylesheet">
 
-<div>
-    <p>30 березня 2018 року Міністерство юстиції України спільно з Асоціацією приватних виконавців України і Київським національним університетом імені Тараса Шевченко, за підтримки Програми Агентства США з міжнародного розвитку (USAID) «Нове правосуддя», Проекту Європейського Союзу «Підтримка реформ юстиції і правосуддя в Україні (ПРАВО-JUSTICE)» і Центру комерційного права (Україна) провели науково-практичну конференцію «Реформа виконавчого провадження: сьогодення та перспективи».
-Всі обговорювані спікерами теми були важливі і актуальні. Кваліфікація приватних виконавців зростає щодня!</p>
-</div>
-  </div>
-  
-  <div class="slider__inner">
-    <img src="img/photo2_cr.jpg" alt="">
-    <p>Реформа о приватних виконавцях в Украині успішно впроваджується в практику і відточується день у день. Зокрема, за рахунок регулярного відпрацювання усунення виникаючих складностей.
-Чудовим привідом для цього став II-й Міжнародний форум, присвячений темі виконавчого виробництва. Результати виконанної колосальної командної праці - кращий доказ эфективності нововведення</p>
-  </div>
-  <div class="slider__inner">
-    <img src="img/photo3_cr.jpg" alt="">
-    <p>Центр коммерційного права разом з Міністерством юстиції провів семінар для приватних виконавців, під час якого обговорювались питання відпрацювання та оптимізації робочого процесу приватниї виконавців. Семінар вели спеціалист з діловодства з Министерства юстиції, эксперт з оподаткування й HR-консультант.
-Всі затронуті спікерами теми були важливі й актуальні. Кваліфикація приватних виконавців росте день у денб</p>
-  </div>
-</div>
-           
-        </div>
-    </div>
-     <section id="brown" class="brown">
-        <div class="container__inner">
-            <div class="why__wrap">
-            <div class="why__wrap-inner">
-                <span class="white-span">Повноваження</span>
-            </div>
-            <div class="why__wrap-inner">               
+    <!-- Flexslider -->
+    <link href="css/flexslider.css" rel="stylesheet">
+	
+    <!-- prettyPhoto -->	
+	<link href="css/prettyPhoto.css" rel="stylesheet">	
 
+	<!-- Custom styles for this template -->
+    <link href="css/style.css" rel="stylesheet">
 
-<ul class="why-list">
-    
-    <li class="why-list__marginBottom">
-        
-        <div class="paddingLeft">
-            <a href=""><i class="fa fa-angle-right" aria-hidden="true"></i>Розшук боржника</a>
-        </div>
-    </li>
-    <li class="why-list__marginBottom">
-        
-        <div class="paddingLeft">
-            <a href=""><i class="fa fa-angle-right" aria-hidden="true"></i>Розшук майна</a>
-        </div>
-    </li>
-    <li class="why-list__marginBottom">
-        
-        <div class="paddingLeft">
-            <a href=""><i class="fa fa-angle-right" aria-hidden="true"></i>Арешт майна боржника</a>
-        </div>
-    </li>
-    <li class="why-list__marginBottom">
-        
-        <div class="paddingLeft">
-            <a href=""><i class="fa fa-angle-right" aria-hidden="true"></i>Звернення стягнення на майно та кошти боржника</a>
-        </div>
-    </li>
-   
+	<!-- Font -->
+	<link rel="stylesheet" href="http://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700">
 
-</ul>
-</div>
-        <div class="why__wrap-inner">
-                
+	<!-- Theme skin -->
+	<link href="skin/default.css" rel="stylesheet" />
+	
+    <!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!--[if lt IE 9]>
+      <script src="js/html5shiv.js"></script>
+      <script src="js/respond.min.js"></script>
+    <![endif]-->
 
+  </head>
 
-<ul class="why-list">
-    
-    
-    
-    <li class="why-list__marginBottom">
-        
-        <div class="paddingLeft">
-            <a href=""><i class="fa fa-angle-right" aria-hidden="true"></i>Примусове входження до приміщення</a>
-        </div>
-    </li>
-    <li class="why-list__marginBottom">
-        
-        <div class="paddingLeft">
-            <a href=""><i class="fa fa-angle-right" aria-hidden="true"></i>Притягнення до відповідальності</a>
-        </div>
-    </li>
-    <li class="why-list__marginBottom">
-       
-        <div class="paddingLeft">
-            <a href=""><i class="fa fa-angle-right" aria-hidden="true"></i>Арешт коштів боржника</a>
-        </div>
-    </li>
-    <li class="why-list__marginBottom">
-        
-        <div class="paddingLeft">
-            <a href=""><i class="fa fa-angle-right" aria-hidden="true"></i>Обмеження боржника у праві виїзду за кордон</a>
-        </div>
-    </li>
+  <body>
 
-</ul>
-</div>    
-        </div>
-           
-        </div>
+  <div id="cbp-so-scroller" class="wrapper cbp-so-scroller">
+	<!-- Start header -->
+	<header>
+		<div class="navbar navbar-default">			
+			<div class="navbar-header">
+				<a href="#" class="logo"><img src="img/logo.png" alt="" /></a>
+				<button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+					<span class="sr-only">Toggle navigation</span>
+					<span class="icon-bar"></span>
+					<span class="icon-bar"></span>
+					<span class="icon-bar"></span>
+				</button>						
+			</div>			
+			<div class="navbar-collapse collapse">
+				<ul class="nav navbar-nav">
+					<li><a id="GoToHome" href="#home"  class="selected">Главная</a></li>
+					<li><a id="GoToWorks" href="#work">Как мы работаем</a></li>
+					<li><a id="GoToFeatures" href="#features">Как начать</a></li>		
+					<li><a id="GoToTeam" href="#team">Как мы можем вам помочь</a></li>	
+					<li><a id="GoToContact" href="#contact">Как связаться</a></li>						
+					<li><a id="GoToGallery" href="#gallery"></a></li>
+												
+				</ul>
+										
+			</div><!--/.nav-collapse -->
+		</div>		
+	</header>
+	<!-- End header -->
 
-              
-    </section>
-    <section>
-        <div class="numbers">
-            <div class="container__inner">
-                <div id="counter" class="counter">
-                        <div class="bl">
-                            <div data-num="10" class="number">0</div>
-                            <div class="text">років на ринку</div>
-                        </div>
-                        <div class="bl">
-                            <div data-num="20" class="number">0</div>
-                            <div class="text">клієнтів</div>
-                        </div>
-                        <div class="bl">
-                            <div data-num="30" class="number">0</div>
-                            <div class="text">років гарантіЇ</div>
-                        </div>
-                        <div class="bl">
-                            <div data-num="40" class="number">0</div>
-                            <div class="text">успішних пректів</div>
-                        </div>
-                </div>
-            </div>
-        </div>         
-    </section> 
-    <section id="white" class="white">
+	<!-- Start modal -->	
+	<div id="myModal" class="modal fade" tabindex="-1" role="dialog" aria-hidden="true">
+		<div class="modal-dialog">
+			<div class="modal-content">			 
+				<div class="modal-body">
+					<div class="signup">
+						<h4>Create new account</h4>
+						<p>
+						Vix posse ipsum munere ne, est mazim accusata scribentur ne. Consulatu eloquentiam ex vis, his zril oratio invenire ex.
+						</p>							
+						<form class="form-horizontal">
+							<div class="form-group">
+								<div class="col-lg-12">
+									<input type="text" class="form-control form-block" placeholder="Enter your username">
+								</div>
+							</div>
+							<div class="form-group">
+								<div class="col-lg-12">
+									<input type="text" class="form-control form-block" placeholder="Enter your email address">
+								</div>
+							</div>
+							<div class="form-group">
+								<div class="col-lg-12">
+									<input type="text" class="form-control form-block" placeholder="Enter your password">
+								</div>
+							</div>
+							<div class="form-group">
+								<div class="col-lg-12">
+									<input type="text" class="form-control form-block" placeholder="Retype your password">
+								</div>
+							</div>
+							<div class="form-group">
+								<div class="col-lg-12">
+									<button class="btn btn-md">Sign up</button>
+								</div>									
+							</div>									
+						</form>							
+					</div>
+					<div class="signin">
+						<h4>Member login</h4>
+						<p>
+						Argumentum in nec errem imperdiet abhorreant ei. Id lorem quando legere eos, ea nam diam disputando, ea est hinc salutatus similique.
+						</p>
+						<form class="form-horizontal">
+							<div class="form-group">
+								<div class="col-lg-12">
+									<input type="text" class="form-control form-block" placeholder="Enter your username">
+								</div>
+							</div>
+							<div class="form-group">
+								<div class="col-lg-12">
+									<input type="text" class="form-control form-block" placeholder="Enter your password">
+								</div>
+							</div>
+							<div class="form-group">
+								<div class="col-lg-12">
+									<button class="btn btn-md">Sign in</button>
+								</div>									
+							</div>									
+						</form>							
+					</div>
+				</div>				
+			</div>
+		</div>
+	</div>
+	<!-- End modal -->
+	
+	<!-- Start home -->
+	<section id="home">
+		<div class="home-wrapper">
+			<div class="container">
+				<div class="row">
+					<div class="col-md-5">
+						<div class="main-form-wrapper">
+							<h3>Закажи бесплатную консультацию</h3>
+							<form class="form-horizontal">
+								<div class="form-group">
+									<div class="col-md-12">
+										<label>Имя *</label>
+										<input type="text" class="form-control form-block" placeholder="Введите полное имя">
+									</div>
+								</div>
+								<div class="form-group">
+									<div class="col-md-12">
+										<label>Email *</label>
+										<input type="text" class="form-control form-block" placeholder="Введите email">
+									</div>
+								</div>
+								<div class="form-group">
+									<div class="col-md-12">
+										<label>Телефон *</label>
+										<input type="text" class="form-control form-block" placeholder="Введите номер телефона">
+									</div>
+								</div>	
+								<div class="form-group">
+									<div class="col-md-12 margintop10">
+										<button class="btn btn-md">Закажи сейчас!</button>
+									</div>
+								</div>									
+							</form>
+						</div>
+					</div>
+					<div class="col-md-7 home-quote">
+						<div class="scrolltop">
+							<ul>
+								<li><h3>Облачный<br /> колл-центр</h3></li>
+								<li><h3>Облачный<br /> колл-центр</h3></li>
+								<li><h3>Облачный<br /> колл-центр</h3></li>
+							</ul>
+						</div>
+						<p>
+						Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptas minima debitis, ipsum alias eos minus, doloribus quod deserunt molestiae et perspiciatis animi provident temporibus iure rerum, quasi, nam eveniet necessitatibus. 
+						</p>
+						<a href="#work" class="btn btn-md GoToto margintop20">Полетели!</a>
+					</div>
+				</div>						
+			</div>
+			<a href="#work" class="GoToto btn-arrow"><i class="icon-angle-down"></i></a>
+		</div>		
+	</section>
+	<!-- End home -->
 
-         <div class="container__inner">
-         <div class="services__wrap-grey">
-             <div class="services">                
-                    <p class="services__title-grey">Переваги</p>
-                    <div class="services__item-grey">
-                        <div class="services__item-bl">                
-                            <p>Відкриття виконавчого провадження одразу з поданням заяви</p>
-                        </div>
-                        <div class="services__item-bl">
-                            <p>Постійне, повне та всебічне інформування з усих заходів примусового виконання.</p>
-                        </div>
-                        <div class="services__item-bl">               
-                            <p>Збереження таємниці щодо інформації, яка стала відома під час провадження</p>
-                        </div>
-                        <div class="services__item-bl">
-                            <p>Максимальна зацікавленність у виконанні судових рішень</p>
-                        </div>
-                        <div class="services__item-bl">               
-                           <p>Відсутність процесуальних перешкод, своєчасне виконання рішень</p>
-                        </div>
-                        
-                    </div>
-                 
-             </div>
-         </div>
-         </div>        
-    </section>
-    <footer id="footer" class="footer">
-    <div class="container">
-        <div class="footer__wrap">
-            <div class="footer__contact">
-                <strong class="footer__contact-title">Контакти</strong>
-                <ul class=contact-list>
-                    <li><strong>Телефони:</strong></li>
-                    <li><a href="tel:+38(098)-588-14-86">+38(098)-588-14-86</a></li>
-                </ul>
-                <ul class=contact-list>
-                    <li><strong>Адреса:</strong></li>
-                    <li>м. Київ, вул. Стрілецька, 7/6</li>
-                </ul>
-                <ul class=contact-list>
-                    <li><strong>Години роботи:</strong></li>
-                    <li>Пн-Пт: з 09:00 до 18:00</li>
-                    <li>Cб-Нд за домовленістю</li>
-                </ul>
-            </div>
-            <div class="footer__iframe">
-                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2540.35943718261!2d30.50987011504767!3d50.45303109506102!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x40d4ce5c77f7e31d%3A0xcbc511399686de2e!2z0YPQuy4g0KHRgtGA0LXQu9C10YbQutCw0Y8sIDcvNiwg0JrQuNC10LIsIDAyMDAw!5e0!3m2!1sru!2sua!4v1564946514327!5m2!1sru!2sua" width="100%" height="300" frameborder="0" style="border:0" allowfullscreen></iframe>
-                <ul class="navigation-footer">
-                     <li><a href="index.html">Головна сторінка</a></li>
-                     <li><a href="#services">Про мене</a></li>
-                     <li><a href="#prices">Послуги</a></li>
-                    <li><a href="#prices">Блог</a></li>
-                     <li><a href="#contact">Контакти</a></li>
-                </ul>
-            </div>
-            <div class="logorez">
-              <img src="img/shield.png" alt="">
-            </div>      
-      </div>
-    </div>
-  </footer>
+	<!-- Start how it work -->
+	<section id="work" class="contain secondary-bg">
+		<div class="container">
+			<div class="row cbp-so-section">
+				<div class="col-md-10 col-md-offset-1 cbp-so-side cbp-so-side-top">	
+					<div class="heading">
+						<h4>Как мы работаем</h4>
+						<p>
+						Lorem ipsum dolor sit amet, consectetur adipisicing elit. Laudantium ullam officia, labore veritatis rem neque tempore cum vitae aliquid, animi quas impedit. Vero quis ratione sint. Fugiat ex possimus hic odio, voluptatem natus, aliquam quod repudiandae consequatur neque minus id?
+						</p>
+					</div>
+				</div>
+			</div>	
+			<div class="row">
+				<div class="col-md-12">	
+					<div class="work-it-wrapper">
+						<span class="circle-top"></span>
+						<div class="work-it-contain on-right cbp-so-section">
+							<div class="work-it-icon">
+								<i class="icon-shopping-cart"></i>
+							</div>
+							<div class="work-it-text cbp-so-side cbp-so-side-right">
+								<h5>Lorem ipsum dolor sit amet.</h5>
+								<p>
+						Lorem ipsum dolor sit amet, consectetur adipisicing elit. Laudantium ullam officia, labore veritatis rem neque tempore cum vitae aliquid, animi quas impedit. Vero quis ratione sint. Fugiat ex possimus hic odio, voluptatem natus, aliquam quod repudiandae consequatur neque minus id?
+						</p>
+							</div>
+						</div>
+							
+						<div class="work-it-contain on-left cbp-so-section">
+							<div class="work-it-icon">
+								<i class="icon-cloud-download"></i>
+							</div>
+							<div class="work-it-text cbp-so-side cbp-so-side-left">
+								<h5>Lorem ipsum dolor sit amet.</h5>
+								<p>
+						Lorem ipsum dolor sit amet, consectetur adipisicing elit. Laudantium ullam officia, labore veritatis rem neque tempore cum vitae aliquid, animi quas impedit. Vero quis ratione sint. Fugiat ex possimus hic odio, voluptatem natus, aliquam quod repudiandae consequatur neque minus id?
+						</p>
+							</div>
+						</div>	
 
+						<div class="work-it-contain on-right cbp-so-section">
+							<div class="work-it-icon">
+								<i class="icon-wrench"></i>
+							</div>
+							<div class="work-it-text cbp-so-side cbp-so-side-right">
+								<h5>Lorem ipsum dolor sit amet.</h5>
+								<p>
+						Lorem ipsum dolor sit amet, consectetur adipisicing elit. Laudantium ullam officia, labore veritatis rem neque tempore cum vitae aliquid, animi quas impedit. Vero quis ratione sint. Fugiat ex possimus hic odio, voluptatem natus, aliquam quod repudiandae consequatur neque minus id?
+						</p>
+							</div>
+						</div>
 
+						<div class="work-it-contain on-left cbp-so-section">
+							<div class="work-it-icon">
+								<i class="icon-thumbs-up"></i>
+							</div>
+							<div class="work-it-text cbp-so-side cbp-so-side-left">
+								<h5>Lorem ipsum dolor sit amet.</h5>
+								<p>
+						Lorem ipsum dolor sit amet, consectetur adipisicing elit. Laudantium ullam officia, labore veritatis rem neque tempore cum vitae aliquid, animi quas impedit. Vero quis ratione sint. Fugiat ex possimus hic odio, voluptatem natus, aliquam quod repudiandae consequatur neque minus id?
+						</p>
+							</div>
+						</div>							
+						<span class="circle-bottom"></span>
+					</div>
+				</div>				
+			</div>			
+		</div>					
+	</section>
+	<!-- End how it work -->
 
-<script src="js/jquery-3.2.1.min.js"></script>
-<script src="js/slick.min.js"></script>
-<script src="js/scripts.js"></script>
-</body>
+	<!-- Start client -->
+	<div id="client" class="contain dark-bg">
+		<div class="container">
+			<div class="row">
+				<div class="col-md-12">
+					<ul class="client-list">
+						<li>
+							<ul>
+								<li class="cbp-so-section">									
+									<a href="#" class="client-link cbp-so-side cbp-so-side-top">
+										<span class="logo-hover"><img src="img/client/logo1-hover.png" alt="" /></span>
+										<img src="img/client/logo1.png" class="client-logo" alt="" />
+									</a>
+								</li>
+								<li class="cbp-so-section">									
+									<a href="#" class="client-link cbp-so-side cbp-so-side-top">
+										<span class="logo-hover"><img src="img/client/logo2-hover.png" alt="" /></span>
+										<img src="img/client/logo2.png" class="client-logo" alt="" />
+									</a>
+								</li>
+								<li class="cbp-so-section">									
+									<a href="#" class="client-link cbp-so-side cbp-so-side-top">
+										<span class="logo-hover"><img src="img/client/logo3-hover.png" alt="" /></span>
+										<img src="img/client/logo3.png" class="client-logo" alt="" />
+									</a>
+								</li>
+								<li class="cbp-so-section">									
+									<a href="#" class="client-link cbp-so-side cbp-so-side-top">
+										<span class="logo-hover"><img src="img/client/logo4-hover.png" alt="" /></span>
+										<img src="img/client/logo4.png" class="client-logo" alt="" />
+									</a>
+								</li>
+								<li class="last cbp-so-section">									
+									<a href="#" class="client-link cbp-so-side cbp-so-side-top">
+										<span class="logo-hover"><img src="img/client/logo5-hover.png" alt="" /></span>
+										<img src="img/client/logo5.png" class="client-logo" alt="" />
+									</a>
+								</li>							
+							</ul>
+						</li>
+						<li class="bottom-list">
+							<ul>
+								<li class="cbp-so-section">									
+									<a href="#" class="client-link cbp-so-side cbp-so-side-bottom">
+										<span class="logo-hover"><img src="img/client/logo6-hover.png" alt="" /></span>
+										<img src="img/client/logo6.png" class="client-logo" alt="" />
+									</a>
+								</li>
+								<li class="cbp-so-section">									
+									<a href="#" class="client-link cbp-so-side cbp-so-side-bottom">
+										<span class="logo-hover"><img src="img/client/logo7-hover.png" alt="" /></span>
+										<img src="img/client/logo7.png" class="client-logo" alt="" />
+									</a>
+								</li>
+								<li class="cbp-so-section">									
+									<a href="#" class="client-link cbp-so-side cbp-so-side-bottom">
+										<span class="logo-hover"><img src="img/client/logo8-hover.png" alt="" /></span>
+										<img src="img/client/logo8.png" class="client-logo" alt="" />
+									</a>
+								</li>
+								<li class="cbp-so-section">									
+									<a href="#" class="client-link cbp-so-side cbp-so-side-bottom">
+										<span class="logo-hover"><img src="img/client/logo9-hover.png" alt="" /></span>
+										<img src="img/client/logo9.png" class="client-logo" alt="" />
+									</a>
+								</li>
+								<li class="last cbp-so-section">									
+									<a href="#" class="client-link cbp-so-side cbp-so-side-bottom">
+										<span class="logo-hover"><img src="img/client/logo10-hover.png" alt="" /></span>
+										<img src="img/client/logo10.png" class="client-logo" alt="" />
+									</a>
+								</li>							
+							</ul>
+						</li>						
+					</ul>
+				</div>
+			</div>
+		</div>
+	</div>
+	<!-- End client-->
 
+	<!-- Start features-->
+	<section id="features">
+		<div class="headline">
+			<div class="container">
+				<div class="row cbp-so-section">
+					<div class="col-md-10 col-md-offset-1 cbp-so-side cbp-so-side-top">	
+						<h4>Lorem ipsum dolor.</h4>
+						<p>
+						Lorem ipsum dolor sit amet, consectetur adipisicing elit. Maxime quam veritatis recusandae voluptatum placeat vitae nobis porro consequatur atque rem, commodi vero reiciendis repellat quasi eveniet ad magni dolore harum veniam ex, aperiam nesciunt sit. Aut accusantium modi dolores nisi.
+						</p>
+					</div>
+				</div>
+			</div>
+			<span class="headline-arrow"></span>
+		</div>
+			<!--div class="flexslider">
+				<ul class="slides">
+					<li>
+						<div class="image-cap">
+							<img src="img/features/img1.png" alt="" />
+						</div>
+						<div class="text-cap">
+							<h4>Looks great on any device</h4>
+							<p>
+							Ullam id dolor id nibh ultricies vehicula ut id elit. Aenean eudo leo quam pellentesque ornare sem lacinia quam venenatis.
+							</p>
+							<a href="#" class="text-link">Learn more</a>
+						</div>
+						<img src="img/features/bg.jpg" alt="" />					
+					</li>
+					<li>
+						<div class="image-cap">
+							<img src="img/features/img3.png" alt="" />
+						</div>
+						<div class="text-cap">
+							<h4>Super flat and modern design</h4>
+							<p>
+							Ullam id dolor id nibh ultricies vehicula ut id elit. Aenean eudo leo quam pellentesque ornare sem lacinia quam venenatis.
+							</p>
+							<a href="#" class="text-link">Learn more</a>
+						</div>				
+						<img src="img/features/bg1.jpg" alt="" />
+					</li>
+					<li>
+						<div class="image-cap">
+							<img src="img/features/img2.png" alt="" />
+						</div>
+						<div class="text-cap">
+							<h4>Suitable for web maketing</h4>
+							<p>
+							Ullam id dolor id nibh ultricies vehicula ut id elit. Aenean eudo leo quam pellentesque ornare sem lacinia quam venenatis.
+							</p>
+							<a href="#" class="text-link">Learn more</a>
+						</div>				
+						<img src="img/features/bg2.jpg" alt="" />
+					</li>
+					<li>
+						<div class="image-cap">
+							<img src="img/features/img4.png" alt="" />
+						</div>
+						<div class="text-cap">
+							<h4>Very easy to customize</h4>
+							<p>
+							Ullam id dolor id nibh ultricies vehicula ut id elit. Aenean eudo leo quam pellentesque ornare sem lacinia quam venenatis.
+							</p>
+							<a href="#" class="text-link">Learn more</a>
+						</div>				
+						<img src="img/features/bg3.jpg" alt="" />
+					</li>					
+				</ul>
+			</div -->
+	</section>
+	<!-- Start features -->
+	
+	<!-- Start testimonials -->
+	<div id="testimonials" class="contain dark-bg">
+		<div class="container">
+			<div class="row margintop10 cbp-so-section">
+				<div class="col-md-10 col-md-offset-1 cbp-so-side cbp-so-side-top">
+					<ul class="ticker">
+						<li>
+							<div class="testimoni">
+								<a href="#" class="testimoni-avatar"><img src="img/testimoni/avatar1.png" alt="" /></a>
+								<blockquote>
+									Clita perpetua pri et, in vis suas invenire definitionem, te eam erant soleat. Eu vis assum movet, duo quis eirmod periculis ut, et has nominavi tincidunt ullamcorper. No erat dicat vis. Sea an rest vandora apeirian inciderint, quo id dico.
+								</blockquote>
+								<span class="testimoni-author">Ence iif syaripuddin - 99webpage.com</span>
+							</div>
+						</li>
+						<li>
+							<div class="testimoni">
+								<a href="#" class="testimoni-avatar"><img src="img/testimoni/avatar2.png" alt="" /></a>
+								<blockquote>
+									Argumentum in nec errem imperdiet abhorreant ei. Id lorem quando legere eos, ea nam diam disputando, ea est hinc salutatus similique. Vix posse ipsum munere ne, est mazim accusata scribentur ne. Consulatu eloquentiam ex vis, his zril oratio invenire ex.
+								</blockquote>
+								<span class="testimoni-author">Muhammad al fatih fauzan - 99webpage.com</span>
+							</div>
+						</li>
+						<li>
+							<div class="testimoni">
+								<a href="#" class="testimoni-avatar"><img src="img/testimoni/avatar3.png" alt="" /></a>
+								<blockquote>
+									Nec ad homero maluisset delicatissimi, error possit impetus vix id. Porro facilis id vis, omnis reque corpora at ius. Veri ubique oportere duo ea, vix sale ferri percipitur te, vix ut aliquid quaestio appellantur. Eu munere indoctum definitiones sit. Virtute inimicus quo ea.
+								</blockquote>
+								<span class="testimoni-author">Al fatih FZ - 99webpage.com</span>
+							</div>
+						</li>						
+					</ul>
+				</div>
+			</div>
+		</div>
+	</div>
+	<!-- End testimonials -->
+
+	<!-- Start team --section id="team" class="contain primary-bg cbp-so-section">
+		<div class="container cbp-so-side cbp-so-side-top">
+			<div class="row">
+				<div class="col-md-10 col-md-offset-1">	
+					<div class="heading">
+						<h4>Our team</h4>
+						<p>
+						Eam facer elaboraret ea, ad eos nullam consulatu maiestatis. Eum mazim simul ne, dicta mnesarchum duo no, ex nec graece verear. Quodsi mentitum iudicabit ut vel, nam suscipiantur
+						</p>
+					</div>
+				</div>
+			</div>
+			<div class="row">
+				<div class="col-md-4 text-center">	
+					<div class="team-image-wrapper">
+						<div class="team-frame">
+							<div class="team-profile">
+								<h5>John doe</h5>
+								<p>Web designer</p>
+								<a href="#"><img src="img/team/social/fb.png" class="e_bounce" alt="" /></a>
+								<a href="#"><img src="img/team/social/twitter.png" class="e_bounce" alt="" /></a>
+								<a href="#"><img src="img/team/social/dribbble.png" class="e_bounce" alt="" /></a>
+							</div>
+						</div>					
+						<a href="#" class="team-image"><img src="img/team/avatar1.png" alt="" /></a>
+					</div>						
+				</div>
+				<div class="col-md-4 text-center">	
+					<div class="team-image-wrapper">
+						<div class="team-frame">
+							<div class="team-profile">
+								<h5>John doe</h5>
+								<p>Web designer</p>
+								<a href="#"><img src="img/team/social/fb.png" class="e_bounce" alt="" /></a>
+								<a href="#"><img src="img/team/social/twitter.png" class="e_bounce" alt="" /></a>
+								<a href="#"><img src="img/team/social/dribbble.png" class="e_bounce" alt="" /></a>
+							</div>
+						</div>						
+						<a href="#" class="team-image"><img src="img/team/avatar2.png" alt="" /></a>
+					</div>						
+				</div>
+				<div class="col-md-4 text-center">	
+					<div class="team-image-wrapper">
+						<div class="team-frame">
+							<div class="team-profile">
+								<h5>John doe</h5>
+								<p>Web designer</p>
+								<a href="#"><img src="img/team/social/fb.png" class="e_bounce" alt="" /></a>
+								<a href="#"><img src="img/team/social/twitter.png" class="e_bounce" alt="" /></a>
+								<a href="#"><img src="img/team/social/dribbble.png" class="e_bounce" alt="" /></a>
+							</div>
+						</div>						
+						<a href="#" class="team-image"><img src="img/team/avatar3.png" alt="" /></a>
+					</div>						
+				</div>				
+			</div>
+			<div class="row">
+				<div class="col-md-4 col-md-offset-2 text-center">	
+					<div class="team-image-wrapper">
+						<div class="team-frame">
+							<div class="team-profile">
+								<h5>John doe</h5>
+								<p>Web designer</p>
+								<a href="#"><img src="img/team/social/fb.png" class="e_bounce" alt="" /></a>
+								<a href="#"><img src="img/team/social/twitter.png" class="e_bounce" alt="" /></a>
+								<a href="#"><img src="img/team/social/dribbble.png" class="e_bounce" alt="" /></a>
+							</div>
+						</div>					
+						<a href="#" class="team-image"><img src="img/team/avatar4.png" alt="" /></a>
+					</div>						
+				</div>
+				<div class="col-md-4 text-center">	
+					<div class="team-image-wrapper">
+						<div class="team-frame">
+							<div class="team-profile">
+								<h5>John doe</h5>
+								<p>Web designer</p>
+								<a href="#"><img src="img/team/social/fb.png" class="e_bounce" alt="" /></a>
+								<a href="#"><img src="img/team/social/twitter.png" class="e_bounce" alt="" /></a>
+								<a href="#"><img src="img/team/social/dribbble.png" class="e_bounce" alt="" /></a>
+							</div>
+						</div>						
+						<a href="#" class="team-image"><img src="img/team/avatar5.png" alt="" /></a>
+					</div>						
+				</div>			
+			</div>				
+		</div>					
+	</section!-- End team  -->
+
+	<!-- Start gallery -->
+	<section id="gallery" class="contain secondary-bg">
+		<div class="container">
+			<div class="row">
+				<div class="col-md-12">	
+					<div class="heading">
+						<h4>Lorem ipsum dolor.</h4>
+					</div>
+					<ul class="portfolio-categ filter clearfix">
+						<li class="all active"><a href="#">All</a></li>
+						<li class="web"><a href="#">1</a></li>
+						<li class="graphic"><a href="#">2</a></li>
+						<li class="brand"><a href="#">3</a></li>
+						<li class="apps"><a href="#">4</a></li>
+					</ul>
+				</div>
+				<div class="clearfix"></div>
+				<ul class="portfolio-area row">	
+					<li class="portfolio-item" data-id="id-0" data-type="web">	
+						<div class="image-wrapper">
+							<div class="image-caption">
+								<a href="img/gallery/1.jpg" class="zoom" data-pretty="prettyPhoto"><i class="icon-zoom-in"></i></a>
+								<div class="image-title"><a href="#">Facete deleniti constituam sea nemore timeam nusquam </a></div>
+							</div>
+							<img src="img/gallery/1.jpg" class="img-gallery" alt="" />
+						</div>
+					</li>
+					<li class="portfolio-item" data-id="id-1" data-type="brand">	
+						<div class="image-wrapper">
+							<div class="image-caption">
+								<a href="img/gallery/2.jpg" class="zoom" data-pretty="prettyPhoto"><i class="icon-zoom-in"></i></a>
+								<div class="image-title"><a href="#">Facete deleniti constituam sea nemore timeam nusquam </a></div>
+							</div>						
+							<img src="img/gallery/2.jpg" class="img-gallery" alt="" />
+						</div>
+					</li>
+					<li class="portfolio-item" data-id="id-2" data-type="apps">	
+						<div class="image-wrapper">
+							<div class="image-caption">
+								<a href="img/gallery/3.jpg" class="zoom" data-pretty="prettyPhoto"><i class="icon-zoom-in"></i></a>
+								<div class="image-title"><a href="#">Facete deleniti constituam sea nemore timeam nusquam </a></div>
+							</div>						
+							<img src="img/gallery/3.jpg" class="img-gallery" alt="" />
+						</div>
+					</li>
+					<li class="portfolio-item" data-id="id-3" data-type="web">	
+						<div class="image-wrapper">
+							<div class="image-caption">
+								<a href="img/gallery/4.jpg" class="zoom" data-pretty="prettyPhoto"><i class="icon-zoom-in"></i></a>
+								<div class="image-title"><a href="#">Facete deleniti constituam sea nemore timeam nusquam </a></div>
+							</div>
+							<img src="img/gallery/4.jpg" class="img-gallery" alt="" />
+						</div>
+					</li>
+					<li class="portfolio-item" data-id="id-4" data-type="graphic">	
+						<div class="image-wrapper">
+							<div class="image-caption">
+								<a href="img/gallery/5.jpg" class="zoom" data-pretty="prettyPhoto"><i class="icon-zoom-in"></i></a>
+								<div class="image-title"><a href="#">Facete deleniti constituam sea nemore timeam nusquam </a></div>
+							</div>						
+							<img src="img/gallery/5.jpg" class="img-gallery" alt="" />
+						</div>
+					</li>
+					<li class="portfolio-item" data-id="id-5" data-type="apps">	
+						<div class="image-wrapper">
+							<div class="image-caption">
+								<a href="img/gallery/6.jpg" class="zoom" data-pretty="prettyPhoto"><i class="icon-zoom-in"></i></a>
+								<div class="image-title"><a href="#">Facete deleniti constituam sea nemore timeam nusquam </a></div>
+							</div>						
+							<img src="img/gallery/6.jpg" class="img-gallery" alt="" />
+						</div>
+					</li>
+					<li class="portfolio-item" data-id="id-6" data-type="brand">	
+						<div class="image-wrapper">
+							<div class="image-caption">
+								<a href="img/gallery/7.jpg" class="zoom" data-pretty="prettyPhoto"><i class="icon-zoom-in"></i></a>
+								<div class="image-title"><a href="#">Facete deleniti constituam sea nemore timeam nusquam </a></div>
+							</div>
+							<img src="img/gallery/7.jpg" class="img-gallery" alt="" />
+						</div>
+					</li>
+					<li class="portfolio-item" data-id="id-7" data-type="brand">	
+						<div class="image-wrapper">
+							<div class="image-caption">
+								<a href="img/gallery/8.jpg" class="zoom" data-pretty="prettyPhoto"><i class="icon-zoom-in"></i></a>
+								<div class="image-title"><a href="#">Facete deleniti constituam sea nemore timeam nusquam </a></div>
+							</div>						
+							<img src="img/gallery/8.jpg" class="img-gallery" alt="" />
+						</div>
+					</li>
+					<li class="portfolio-item" data-id="id-8" data-type="web">	
+						<div class="image-wrapper">
+							<div class="image-caption">
+								<a href="img/gallery/9.jpg" class="zoom" data-pretty="prettyPhoto"><i class="icon-zoom-in"></i></a>
+								<div class="image-title"><a href="#">Facete deleniti constituam sea nemore timeam nusquam </a></div>
+							</div>						
+							<img src="img/gallery/9.jpg" class="img-gallery" alt="" />
+						</div>
+					</li>						
+				</ul>
+			</div>		
+		</div>					
+	</section>
+	<!-- End gallery -->
+
+	<!-- Start contact -->
+	<section id="contact" class="primary-bg">
+		<div class="headline">
+			<div class="container">
+				<div class="row cbp-so-section">
+					<div class="col-md-10 col-md-offset-1 cbp-so-side cbp-so-side-top">	
+						<h4>Contact us</h4>
+						<p>
+						Eam facer elaboraret ea, ad eos nullam consulatu maiestatis. Eum mazim simul ne, dicta mnesarchum duo no, ex nec graece verear. Quodsi mentitum iudicabit ut vel, nam suscipiantur definitionem delicatissimi in.
+						</p>
+					</div>
+				</div>
+			</div>
+			<span class="headline-arrow"></span>			
+		</div>
+		<div class="container">
+			<div class="row">
+				<div class="col-md-8 col-md-offset-2">	
+					<form id="contactform" action="contact/contact.php" method="post" class="validateform" name="leaveContact">
+						<div class="clearfix"></div>
+						<div id="sendmessage">
+							<div class="alert alert-info marginbot35">
+								<button type="button" class="close" data-dismiss="alert">&times;</button>
+								<strong>Your message has been sent. Thank you!</strong><br />
+							</div>							
+						</div>								
+						<ul class="listForm cbp-so-section">
+							<li class="cbp-so-side cbp-so-side-left">
+								<input class="form-control input-name" type="text" name="name" data-rule="maxlen:4" data-msg="Required field" placeholder="Enter your full name . . ." />
+								<div class="validation"></div>
+							</li>
+							<li class="cbp-so-side cbp-so-side-right">
+								<input class="form-control input-email" type="text" name="email" data-rule="email" data-msg="Please enter a valid email" placeholder="Enter your email address . . ."/>	
+								<div class="validation"></div>
+							</li>
+							<li class="cbp-so-side cbp-so-side-bottom">
+								<textarea class="form-control input-message" rows="9" name="message" data-rule="required" data-msg="Please write something for us" placeholder="Write something for us . . ."></textarea>												
+								<div class="validation"></div>
+							</li>
+							<li class="text-center cbp-so-side cbp-so-side-bottom">
+									<input type="submit" value="Send message" class="btn-submit" name="Submit" />
+							</li>
+						</ul>
+					</form>
+				</div>
+			</div>
+		</div>		
+	</section>
+	<!-- End contact -->
+
+	<!-- Start call to action -->
+	<div id="cta-section" class="contain dark-bg">
+		<div class="container">
+			<div class="row text-center cbp-so-section">
+				<div class="col-md-10 col-md-offset-1">
+					<p class="cbp-so-side cbp-so-side-top">Lorem ipsum dolor sit amet, consectetur adipisicing.</p>
+					<a href="#" class="btn btn-md cbp-so-side cbp-so-side-bottom">Lorem ipsum dolor.</a>
+				</div>
+			</div>
+		</div>
+	</div>
+	<!-- End call to action -->
+	
+	<!-- Start footer -->
+	<footer>
+		<div class="container">
+			<div class="row text-center cbp-so-section">
+				<div class="col-md-10 col-md-offset-1">
+					<div class="social-network">
+						<a href="#" class="social-link cbp-so-side cbp-so-side-left"><i class="icon-facebook"></i></a>
+						<a href="#" class="social-link cbp-so-side cbp-so-side-left"><i class="icon-twitter"></i></a>
+						<a href="#" class="social-link cbp-so-side cbp-so-side-left"><i class="icon-linkedin"></i></a>
+						<a href="#" class="social-link cbp-so-side cbp-so-side-right"><i class="icon-pinterest"></i></a>
+						<a href="#" class="social-link cbp-so-side cbp-so-side-right"><i class="icon-google-plus"></i></a>
+						<a href="#" class="social-link cbp-so-side cbp-so-side-right"><i class="icon-rss"></i></a>
+					</div>					
+					
+				</div>
+			</div>
+		</div>	
+	</footer>
+	<!-- End footer -->
+  </div>	
+    <!-- Bootstrap core JavaScript
+    ================================================== -->
+    <!-- Placed at the end of the document so the pages load faster -->
+    <script src="js/jquery.js"></script>
+	<script src="js/bootstrap.min.js"></script>
+    <script src="js/jquery-easing-1.3.js"></script>
+	
+	<!-- Fixed navigation -->
+	<script src="js/navigation/waypoints.min.js"></script>
+	<script src="js/navigation/jquery.smooth-scroll.js"></script>		
+	<script src="js/navigation/navbar.js"></script>	
+
+	<!-- JavaScript cbpscroller -->
+	<script src="js/cbpscroller/modernizr.custom.js"></script>	
+	<script src="js/cbpscroller/classie.js"></script>
+	<script src="js/cbpscroller/cbpScroller.js"></script>
+	
+	<!-- JavaScript jcarousellite -->
+	<script src="js/jcarousellite/jcarousellite_1.0.1c4.js"></script>	
+	<script src="js/jcarousellite/setting.js"></script>
+
+	<!-- Ticker -->
+	<script src="js/ticker/ticker.js"></script>
+	<script src="js/ticker/setting.js"></script>
+
+	<!-- prettyPhoto -->
+	<script src="js/prettyPhoto/jquery.prettyPhoto.js"></script>
+	<script src="js/prettyPhoto/setting.js"></script>
+	
+	<!-- Filter -->
+	<script src="js/filter/jquery.quicksand.js"></script>
+	<script src="js/filter/setting.js"></script>
+
+	<!-- Flexslider -->
+	<script src="js/flexslider/jquery.flexslider.js"></script>
+    <script src="js/flexslider/setting.js"></script>
+	
+	<!-- Contact validation js -->
+    <script src="js/validation.js"></script>
+
+	<!-- JavaScript totop -->
+	<script src="js/totop/jquery.ui.totop.js"></script>	
+	<script src="js/totop/setting.js"></script>
+	
+	<!-- Customn javascript -->
+	<script src="js/custom.js"></script>	
+
+  </body>
 </html>
