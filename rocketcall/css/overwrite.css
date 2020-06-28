@@ -71,8 +71,8 @@ h2{
 }
 
 h3{
-	font-size:22px;
-	line-height:25px;
+	font-size:18px;
+	line-height:23px;
 }
 
 h4{
@@ -515,7 +515,7 @@ textarea.form-control{
 }
 
 .form-group{
-	margin-bottom:20px;
+	margin-bottom:15px;
 }
 
 /*

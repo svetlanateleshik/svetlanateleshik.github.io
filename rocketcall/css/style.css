@@ -45,7 +45,7 @@ header{
 	z-index:99999;	
 }
 .logo img{
-	height: 70px;
+	height: 95px;
 }
 
 #home{
@@ -55,13 +55,13 @@ header{
 	margin-top:127px;
 	color:#ffa500;
 	font-size:20px;
-	line-height:30px;
+	line-height:;
 }
 
 .home-wrapper{
 	background-image:url(../img/starry-sky-1655503_1920.jpg);
 	position:relative;
-	padding:100px 0 150px 0;
+	padding:50px 0 50px 0;
 }
 
 .home-wrapper.custom-padding{
@@ -86,10 +86,12 @@ header{
 	text-shadow:3px 3px rgba(0, 0, 0, 0.24);
 	margin-bottom:40px;
 }
-
+.home-quote{
+	text-align: right;
+}
 .home-quote h3{
-	font-size:62px;
-	line-height:80px;
+	font-size:32px;
+	line-height:60px;
 	text-shadow:8px 8px rgba(0, 0, 0, 0.24);
 	margin-bottom:40px;
 }
@@ -1114,7 +1116,7 @@ Custom responsive
 =========================== */
 @media (min-width: 1200px) {
 	.logo{
-		padding:40px;
+		padding:20px;
 	}
 	.navbar-default .collapse{
 		margin:40px 40px 0 0;
