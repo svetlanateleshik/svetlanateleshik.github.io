@@ -1,0 +1,214 @@
+
+@media only screen and (min-width: 767px) and (max-width: 991px) {
+  .pricingTable .pricing-content li {
+    line-height: 20px;
+    font-size: 0.9em;
+  }
+  .navbar-default .navbar-brand {
+    font-size: 18px;
+  }
+  .homescreen .homescreen_girl > img {
+    min-width: 220px;
+  }
+
+  .navbar-default .navbar-nav > li > a {
+    font-size: 14px;
+    padding: 18px 5px;
+    font-size: 0.75em;
+  }
+
+  .navbar-nav > li > .dropdown-menu li a {
+    font-size: 12px;
+  }
+
+  .navbar-brand {
+    width: 160px;
+  }
+
+  .navbar-brand img {
+    max-width: 100%;
+  }
+
+  footer .copyright .inline-menu > li > a {
+    padding: 6px 4px;
+  }
+  .homescreen .homescreen_girl > img {
+    bottom: -24px;
+    right: 10px;
+  }
+}
+
+@media (max-width: 767px) {
+  #fp-nav {
+    display: none;
+  }
+  .navbar-header {
+    background: #111;
+  }
+  .dws {
+    bottom: -15px;
+    right: -15px;
+  }
+  .navbar-default {
+    padding: 0px;
+  }
+  .homescreen_form {
+    text-align: center;
+  }
+  .homescreen_form .input-group {
+    margin-bottom: 10px;
+  }
+  .homescreen h1 {
+    font-size: 2.3em;
+  }
+  .homescreen .homescreen_action p {
+    font-size: 1.2em;
+  }
+  .founder-photo {
+    min-width: 250px;
+  }
+  .section-heading h2 {
+    font-size: 1.8em;
+  }
+
+  #navbar.collapse.in,
+  #navbar.collapsing {
+    background-color: #222;
+  }
+
+  .navbar-default .navbar-toggle {
+    border-color: transparent;
+  }
+
+  .navbar-default .navbar-toggle:focus,
+  .navbar-default .navbar-toggle:hover {
+    background-color: transparent;
+  }
+
+  .navbar-default .navbar-toggle .icon-bar {
+    background-color: rgba(255, 255, 255, 0.75);
+  }
+
+  .navbar-default .navbar-toggle:focus .icon-bar,
+  .navbar-default .navbar-toggle:hover .icon-bar {
+    background-color: #fff;
+  }
+
+  .navbar-toggle {
+    border-radius: 0px;
+  }
+
+  .navbar-default .navbar-nav > li > a,
+  .affix.navbar-default .navbar-nav > li > a {
+    color: #fff;
+    padding: 10px 20px;
+    border-bottom: 1px solid #e7e7e7;
+  }
+
+  .navbar-default .navbar-nav > li:last-child > a {
+    border-bottom: 0 none;
+  }
+
+  .navbar-default .navbar-nav > li > a > .bar-fx,
+  .navbar-default .navbar-nav > li.active > a > .bar-fx {
+    display: none;
+    visibility: hidden;
+  }
+
+  .navbar-default .navbar-nav > li.active > a,
+  .navbar-default .navbar-nav > li.active > a:hover,
+  .navbar-default .navbar-nav > li > a:focus,
+  .navbar-default .navbar-nav > li > a:hover,
+  .affix.navbar-default .navbar-nav > li > a:focus,
+  .affix.navbar-default .navbar-nav > li > a:hover {
+    color: #ffe400;
+  }
+
+  .navbar-nav > li > .dropdown-menu {
+    left: 15px;
+  }
+
+  .navbar-nav > li > .dropdown-menu:before {
+    border-left: 10px solid transparent;
+    border-right: 10px solid transparent;
+    right: 65%;
+  }
+
+  .navbar-toggle {
+    margin-top: 15px;
+  }
+
+  .navbar-default .navbar-brand {
+    margin-bottom: 8px;
+    margin-top: 8px;
+  }
+
+  .navbar-nav > li > .dropdown-menu:before {
+    display: none;
+  }
+
+  .navbar-brand {
+    padding: 0px 15px;
+  }
+  
+}
+
+@media only screen and (min-width: 240px) and (max-width: 360px) {
+  .navbar-brand > img {
+    margin-top: 14px;
+  }
+
+  .homescreen h1 {
+    font-size: 3em;
+  }
+
+  .homescreen p {
+    font-size: 18px;
+    padding: 20px 30px;
+  }
+
+  .section.whoweare {
+    text-align: center;
+  }
+
+  .section.team .member-item > img {
+    max-width: 200px;
+  }
+
+  .arrow {
+    left: 50%;
+    bottom: 90px;
+  }
+
+  .contact-details,
+  .contactus h2 {
+    text-align: center;
+  }
+
+  .contact-details dd + dt:before {
+    border-top: 0 none;
+  }
+
+  footer .copyright,
+  footer .copyright .inline-menu,
+  footer .copyright .social-links {
+    text-align: center;
+    margin-bottom: 5px;
+  }
+
+  footer .social-links {
+    text-align: center;
+  }
+}
+
+@media only screen and (max-width: 991px) {
+  .nav_tel {
+    background: #ffe400;
+    text-align: center;
+    margin-top: 0 !important;
+    padding: 7px 0;
+  }
+  .nav_tel a {
+    color: #000;
+  }
+}

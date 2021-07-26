@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Вход</title>
+    <link rel="icon" type="image/x-icon" href="/favicon.ico" />
+    <link rel="stylesheet" href="/web/dist/css/auth.css?v=1586166184">
+    <link rel="stylesheet" href="/web/dist/css/fontawesome.css?v=1586166184">
+
+    <script>
+        window.csrf_token = '';
+
+        document.addEventListener('DOMContentLoaded', function () {
+            ''
+            Auth.formActionUrl = 'main';             ''
+        })
+    </script>
+</head>
+
+<body>
+
+    <div class="form-wrapper">
+    <div class="form-wrapper--form">
+        <div class="c-progress" style="display: none;"></div>
+        <form id="form_login" method="post" action="">
+            <input type="hidden" name="return_url" value="https://adm.tools/hosting/">
+            <div class="header">
+                <a href="/" class="header-logo"  tabindex="-1"><img src="/web/img/logo_dark.png" alt=""></a>
+            </div>
+            <div id="form_content" class="main">
+                <div class="main-row">
+    <label for="email">
+        <i class="fa fa-user" aria-hidden="true"></i>
+        E-mail
+    </label>
+    <input type="email" name="email" id="email" autofocus required>
+    <a href="/access/restore/" tabindex="-1" style="margin-top:8px;">Забыли e-mail?</a>
+</div>
+<div class="main-row">
+    <label for="password">
+        <i class="fa fa-lock" aria-hidden="true"></i>
+        Пароль
+    </label>
+    <input type="password" name="password" id="password" required>
+    <a href="#" onclick="return Auth.restorePassword()" tabindex="-1" style="margin-top:5px;">Забыли пароль?</a>
+</div>
+<div id="extraCaptcha" style="display: none;" class="main-row">
+    <label for="inp-captcha">
+        <i class="fa fa-asterisk" aria-hidden="true"></i>
+        Введите код с картинки
+    </label>
+    <div class="captcha-input">
+        <input type="text" style="width: 100%;" name="extra_captcha" id="inp-captcha" value="">
+        <img id="captchaImage" src="" onclick="Captcha.loadExtra(true); ">
+    </div>
+</div><div class="main-row login-submit-button">
+    <button id="guardSubmit" type="submit" class="ui-btn ui-btn--primary ui-btn--brand">
+        <i class="fa fa-spinner fa-spin"></i>
+        Войти
+    </button>
+</div>
+<div class="main-row no-margin">
+    <label for="remember">
+        <input type="checkbox" name="remember" id="remember" checked>
+        <span>Запомнить меня на этом компьютере</span>
+    </label>
+</div>
+<div class="main-row">
+    <label for="remember_ip">
+        <input type="checkbox" name="remember_ip" id="remember_ip">
+        <span>Запомнить мой IP 188.163.48.90</span>
+    </label>
+</div>
+
+<div class="main-row no-margin">
+    <div class="oauth">
+            <a href="javascript:void(0);" onclick="UserOAuth.send('google');" class="sprite-oauth dynamic sprite-google" title="Google" rel="nofollow" >&nbsp;</a>
+            <a href="javascript:void(0);" onclick="UserOAuth.send('facebook');" class="sprite-oauth dynamic sprite-facebook" title="Facebook" rel="nofollow" >&nbsp;</a>
+        <div style="clear:both;"></div>
+</div></div>            </div>
+        </form>
+    </div>
+</div>
+<script src="https://www.google.com/recaptcha/api.js?render=6Le_0r4UAAAAAB6G5AJC-m_uLfSuvGe_JdrTNMh7"></script>
+<script>
+    document.addEventListener('DOMContentLoaded', function () {
+        Captcha.setSiteKey('6Le_0r4UAAAAAB6G5AJC-m_uLfSuvGe_JdrTNMh7');
+
+        if(!Auth._switchType || Auth._switchType === 'main') {
+            Captcha.setTimeout();
+
+            if(typeof grecaptcha !== 'undefined') {
+                grecaptcha.ready(function() {
+                    Captcha.init();
+                });
+            }
+        }
+    });
+
+    const MESSAGES = {
+        restorePasswordEmailRequired: 'Для восстановление пароля укажите корректный Email.',
+        restoreAccessFieldsRequired: 'Для того, чтобы скачать заявление нужно указать Email и услуги учетной записи.'
+    }
+</script>
+
+    <div id="x-message">
+        <div>
+            <div class="x-message-close"><i class="fas fa-times"></i></div>
+            <div class="x-message-content"></div>
+        </div>
+    </div>
+    <script src="/web/dist/js/main.min.js?v=1608202094"></script>
+</body>
+</html>

@@ -1,0 +1,260 @@
+Uri: http://flash-call.com.ua/
+File Name: C:\Downloaded Web Sites\flash-call.com.ua\index.htm
+Content Type: text/html
+
+Uri: http://flash-call.com.ua/images/lutsenko.jpg
+File Name: C:\Downloaded Web Sites\flash-call.com.ua\images\lutsenko.jpg
+Content Type: image/jpeg
+
+Uri: http://flash-call.com.ua/images/a_volynyckyy.jpg
+File Name: C:\Downloaded Web Sites\flash-call.com.ua\images\a_volynyckyy.jpg
+Content Type: image/jpeg
+
+Uri: http://flash-call.com.ua/images/a_movchan.jpg
+File Name: C:\Downloaded Web Sites\flash-call.com.ua\images\a_movchan.jpg
+Content Type: image/jpeg
+
+Uri: http://flash-call.com.ua/images/rybalko.jpg
+File Name: C:\Downloaded Web Sites\flash-call.com.ua\images\rybalko.jpg
+Content Type: image/jpeg
+
+Uri: http://flash-call.com.ua/images/v_abbatyrov.jpg
+File Name: C:\Downloaded Web Sites\flash-call.com.ua\images\v_abbatyrov.jpg
+Content Type: image/jpeg
+
+Uri: http://flash-call.com.ua/images/yaroslav_pr.jpg
+File Name: C:\Downloaded Web Sites\flash-call.com.ua\images\yaroslav_pr.jpg
+Content Type: image/jpeg
+
+Uri: http://flash-call.com.ua/images/ostrovskyy.jpg
+File Name: C:\Downloaded Web Sites\flash-call.com.ua\images\ostrovskyy.jpg
+Content Type: image/jpeg
+
+Uri: http://flash-call.com.ua/images/operator_footer.png
+File Name: C:\Downloaded Web Sites\flash-call.com.ua\images\operator_footer.png
+Content Type: image/png
+
+Uri: https://fonts.googleapis.com/css2?family=Neucha&display=swap
+File Name: C:\Downloaded Web Sites\flash-call.com.ua\css2.css
+Content Type: text/css
+
+Uri: http://flash-call.com.ua/favicon.ico
+File Name: C:\Downloaded Web Sites\flash-call.com.ua\favicon.ico
+Content Type: image/x-icon
+
+Uri: http://flash-call.com.ua/css/style.min.css
+File Name: C:\Downloaded Web Sites\flash-call.com.ua\css\style.min.css
+Content Type: text/css
+
+Uri: http://flash-call.com.ua/css/responsive.css
+File Name: C:\Downloaded Web Sites\flash-call.com.ua\css\responsive.css
+Content Type: text/css
+
+Uri: http://flash-call.com.ua/index.html
+File Name: C:\Downloaded Web Sites\flash-call.com.ua\index-1.html
+Content Type: text/html
+
+Uri: https://www.googletagmanager.com/gtag/js?id=G-XJH388C2F5
+File Name: C:\Downloaded Web Sites\flash-call.com.ua\gtag\js.js
+Content Type: application/javascript
+
+Uri: https://kit.fontawesome.com/6ef3915896.js
+File Name: C:\Downloaded Web Sites\flash-call.com.ua\6ef3915896.js
+Content Type: text/javascript
+
+Uri: http://flash-call.com.ua/images/logo_w.png
+File Name: C:\Downloaded Web Sites\flash-call.com.ua\images\logo_w.png
+Content Type: image/png
+
+Uri: http://flash-call.com.ua/images/flash_bg.png
+File Name: C:\Downloaded Web Sites\flash-call.com.ua\images\flash_bg.png
+Content Type: image/png
+
+Uri: http://flash-call.com.ua/images/request.svg
+File Name: C:\Downloaded Web Sites\flash-call.com.ua\images\request.svg
+Content Type: image/svg+xml
+
+Uri: http://flash-call.com.ua/images/crm.svg
+File Name: C:\Downloaded Web Sites\flash-call.com.ua\images\crm.svg
+Content Type: image/svg+xml
+
+Uri: http://flash-call.com.ua/images/operator.svg
+File Name: C:\Downloaded Web Sites\flash-call.com.ua\images\operator.svg
+Content Type: image/svg+xml
+
+Uri: http://flash-call.com.ua/images/wallet.svg
+File Name: C:\Downloaded Web Sites\flash-call.com.ua\images\wallet.svg
+Content Type: image/svg+xml
+
+Uri: http://flash-call.com.ua/images/reason-1.png
+File Name: C:\Downloaded Web Sites\flash-call.com.ua\images\reason-1.png
+Content Type: image/png
+
+Uri: http://flash-call.com.ua/images/reason-2.png
+File Name: C:\Downloaded Web Sites\flash-call.com.ua\images\reason-2.png
+Content Type: image/png
+
+Uri: http://flash-call.com.ua/images/reason-3.png
+File Name: C:\Downloaded Web Sites\flash-call.com.ua\images\reason-3.png
+Content Type: image/png
+
+Uri: http://flash-call.com.ua/images/reason-4.png
+File Name: C:\Downloaded Web Sites\flash-call.com.ua\images\reason-4.png
+Content Type: image/png
+
+Uri: http://flash-call.com.ua/images/sheep.png
+File Name: C:\Downloaded Web Sites\flash-call.com.ua\images\sheep.png
+Content Type: image/png
+
+Uri: http://flash-call.com.ua/images/check.png
+File Name: C:\Downloaded Web Sites\flash-call.com.ua\images\check.png
+Content Type: image/png
+
+Uri: http://flash-call.com.ua/images/bird.png
+File Name: C:\Downloaded Web Sites\flash-call.com.ua\images\bird.png
+Content Type: image/png
+
+Uri: http://flash-call.com.ua/images/plane.png
+File Name: C:\Downloaded Web Sites\flash-call.com.ua\images\plane.png
+Content Type: image/png
+
+Uri: http://flash-call.com.ua/images/case2.png
+File Name: C:\Downloaded Web Sites\flash-call.com.ua\images\case2.png
+Content Type: image/png
+
+Uri: http://flash-call.com.ua/images/case1.png
+File Name: C:\Downloaded Web Sites\flash-call.com.ua\images\case1.png
+Content Type: image/png
+
+Uri: http://flash-call.com.ua/images/case3.png
+File Name: C:\Downloaded Web Sites\flash-call.com.ua\images\case3.png
+Content Type: image/png
+
+Uri: http://flash-call.com.ua/images/accept.png
+File Name: C:\Downloaded Web Sites\flash-call.com.ua\images\accept.png
+Content Type: image/png
+
+Uri: http://flash-call.com.ua/audio/audio_1.mp3
+File Name: C:\Downloaded Web Sites\flash-call.com.ua\audio\audio_1.mp3
+Content Type: audio/mpeg
+
+Uri: http://flash-call.com.ua/audio/audio_1.ogg
+File Name: C:\Downloaded Web Sites\flash-call.com.ua\audio\audio_1.ogg
+Content Type: audio/ogg
+
+Uri: http://flash-call.com.ua/audio/audio_1.wav
+File Name: C:\Downloaded Web Sites\flash-call.com.ua\audio\audio_1.wav
+Content Type: audio/x-wav
+
+Uri: http://flash-call.com.ua/audio/audio_2.mp3
+File Name: C:\Downloaded Web Sites\flash-call.com.ua\audio\audio_2.mp3
+Content Type: audio/mpeg
+
+Uri: http://flash-call.com.ua/audio/audio_2.ogg
+File Name: C:\Downloaded Web Sites\flash-call.com.ua\audio\audio_2.ogg
+Content Type: audio/ogg
+
+Uri: http://flash-call.com.ua/audio/audio_2.wav
+File Name: C:\Downloaded Web Sites\flash-call.com.ua\audio\audio_2.wav
+Content Type: audio/x-wav
+
+Uri: http://flash-call.com.ua/audio/audio_3.mp3
+File Name: C:\Downloaded Web Sites\flash-call.com.ua\audio\audio_3.mp3
+Content Type: audio/mpeg
+
+Uri: http://flash-call.com.ua/audio/audio_3.ogg
+File Name: C:\Downloaded Web Sites\flash-call.com.ua\audio\audio_3.ogg
+Content Type: audio/ogg
+
+Uri: http://flash-call.com.ua/audio/audio_3.wav
+File Name: C:\Downloaded Web Sites\flash-call.com.ua\audio\audio_3.wav
+Content Type: audio/x-wav
+
+Uri: http://flash-call.com.ua/audio/audio_4.mp3
+File Name: C:\Downloaded Web Sites\flash-call.com.ua\audio\audio_4.mp3
+Content Type: audio/mpeg
+
+Uri: http://flash-call.com.ua/audio/audio_4.ogg
+File Name: C:\Downloaded Web Sites\flash-call.com.ua\audio\audio_4.ogg
+Content Type: audio/ogg
+
+Uri: http://flash-call.com.ua/audio/audio_4.wav
+File Name: C:\Downloaded Web Sites\flash-call.com.ua\audio\audio_4.wav
+Content Type: audio/x-wav
+
+Uri: http://flash-call.com.ua/images/logo.svg
+File Name: C:\Downloaded Web Sites\flash-call.com.ua\images\logo.svg
+Content Type: image/svg+xml
+
+Uri: http://flash-call.com.ua/js/jquery-2.2.4.min.js
+File Name: C:\Downloaded Web Sites\flash-call.com.ua\js\jquery-2.2.4.min.js
+Content Type: application/javascript
+
+Uri: http://flash-call.com.ua/js/bootstrap.min.js
+File Name: C:\Downloaded Web Sites\flash-call.com.ua\js\bootstrap.min.js
+Content Type: application/javascript
+
+Uri: http://flash-call.com.ua/js/owl.carousel.min.js
+File Name: C:\Downloaded Web Sites\flash-call.com.ua\js\owl.carousel.min.js
+Content Type: application/javascript
+
+Uri: http://flash-call.com.ua/js/custom.min.js
+File Name: C:\Downloaded Web Sites\flash-call.com.ua\js\custom.min.js
+Content Type: application/javascript
+
+Uri: https://fonts.googleapis.com/css2?family=Oswald:wght@300;500;700&display=swap
+File Name: C:\Downloaded Web Sites\flash-call.com.ua\css2-1.css
+Content Type: text/css
+
+Uri: http://flash-call.com.ua/images/youtube-play-btn.png
+File Name: C:\Downloaded Web Sites\flash-call.com.ua\images\youtube-play-btn.png
+Content Type: image/png
+
+Uri: http://flash-call.com.ua/images/about.jpg
+File Name: C:\Downloaded Web Sites\flash-call.com.ua\images\about.jpg
+Content Type: image/jpeg
+
+Uri: http://flash-call.com.ua/images/crown2.png
+File Name: C:\Downloaded Web Sites\flash-call.com.ua\images\crown2.png
+Content Type: image/png
+
+Uri: http://flash-call.com.ua/images/arrow1.png
+File Name: C:\Downloaded Web Sites\flash-call.com.ua\images\arrow1.png
+Content Type: image/png
+
+Uri: http://flash-call.com.ua/images/hdr-bg.jpg
+File Name: C:\Downloaded Web Sites\flash-call.com.ua\images\hdr-bg.jpg
+Content Type: image/jpeg
+
+Uri: http://flash-call.com.ua/css/bootstrap.min.css
+File Name: C:\Downloaded Web Sites\flash-call.com.ua\css\bootstrap.min.css
+Content Type: text/css
+
+Uri: http://flash-call.com.ua/css/et-line-font.css
+File Name: C:\Downloaded Web Sites\flash-call.com.ua\css\et-line-font.css
+Content Type: text/css
+
+Uri: http://flash-call.com.ua/css/font-awesome.min.css
+File Name: C:\Downloaded Web Sites\flash-call.com.ua\css\font-awesome.min.css
+Content Type: text/css
+
+Uri: http://flash-call.com.ua/css/owl.carousel.min.css
+File Name: C:\Downloaded Web Sites\flash-call.com.ua\css\owl.carousel.min.css
+Content Type: text/css
+
+Uri: http://flash-call.com.ua/css/owl.theme.default.min.css
+File Name: C:\Downloaded Web Sites\flash-call.com.ua\css\owl.theme.default.min.css
+Content Type: text/css
+
+Uri: http://flash-call.com.ua/css/animate.min.css
+File Name: C:\Downloaded Web Sites\flash-call.com.ua\css\animate.min.css
+Content Type: text/css
+
+Uri: http://flash-call.com.ua/fonts/et-line.woff
+File Name: C:\Downloaded Web Sites\flash-call.com.ua\fonts\et-line.woff
+Content Type: font/woff
+
+Uri: http://flash-call.com.ua/fonts/fontawesome-webfont.woff?v=4.2.0
+File Name: C:\Downloaded Web Sites\flash-call.com.ua\fonts\fontawesome-webfont.woff
+Content Type: font/woff
+
